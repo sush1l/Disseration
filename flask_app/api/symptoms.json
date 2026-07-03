@@ -1,0 +1,4650 @@
+{
+  "meta": {
+    "total": 377,
+    "generated_at": "2026-06-08T05:21:12.451606+00:00",
+    "source": "symptom_columns.csv",
+    "note": "The 'index' field is the feature vector position used during model training. Always use it when constructing the binary symptom array for inference."
+  },
+  "categories": [
+    {
+      "id": "skin",
+      "label": "Skin & Hair",
+      "count": 38,
+      "symptoms": [
+        {
+          "id": "skin_swelling",
+          "label": "Skin Swelling",
+          "index": 22
+        },
+        {
+          "id": "jaundice",
+          "label": "Jaundice",
+          "index": 39
+        },
+        {
+          "id": "vaginal_itching",
+          "label": "Vaginal Itching",
+          "index": 53
+        },
+        {
+          "id": "abnormal_appearing_skin",
+          "label": "Abnormal Appearing Skin",
+          "index": 75
+        },
+        {
+          "id": "skin_lesion",
+          "label": "Skin Lesion",
+          "index": 76
+        },
+        {
+          "id": "acne_or_pimples",
+          "label": "Acne Or Pimples",
+          "index": 77
+        },
+        {
+          "id": "skin_growth",
+          "label": "Skin Growth",
+          "index": 81
+        },
+        {
+          "id": "skin_moles",
+          "label": "Skin Moles",
+          "index": 121
+        },
+        {
+          "id": "itchy_ears",
+          "label": "Itchy Ears",
+          "index": 146
+        },
+        {
+          "id": "itchiness_of_eye",
+          "label": "Itchiness Of Eye",
+          "index": 153
+        },
+        {
+          "id": "itchy_eyelid",
+          "label": "Itchy Eyelid",
+          "index": 156
+        },
+        {
+          "id": "tongue_lesions",
+          "label": "Tongue Lesions",
+          "index": 174
+        },
+        {
+          "id": "pallor",
+          "label": "Pallor",
+          "index": 194
+        },
+        {
+          "id": "flushing",
+          "label": "Flushing",
+          "index": 203
+        },
+        {
+          "id": "skin_on_leg_or_foot_looks_infected",
+          "label": "Skin On Leg Or Foot Looks Infected",
+          "index": 220
+        },
+        {
+          "id": "sweating",
+          "label": "Sweating",
+          "index": 258
+        },
+        {
+          "id": "eyelid_lesion_or_rash",
+          "label": "Eyelid Lesion Or Rash",
+          "index": 262
+        },
+        {
+          "id": "unwanted_hair",
+          "label": "Unwanted Hair",
+          "index": 263
+        },
+        {
+          "id": "irregular_appearing_nails",
+          "label": "Irregular Appearing Nails",
+          "index": 265
+        },
+        {
+          "id": "itching_of_skin",
+          "label": "Itching Of Skin",
+          "index": 266
+        },
+        {
+          "id": "nailbiting",
+          "label": "Nailbiting",
+          "index": 268
+        },
+        {
+          "id": "skin_dryness_peeling_scaliness_or_roughness",
+          "label": "Skin Dryness Peeling Scaliness Or Roughness",
+          "index": 269
+        },
+        {
+          "id": "skin_on_arm_or_hand_looks_infected",
+          "label": "Skin On Arm Or Hand Looks Infected",
+          "index": 270
+        },
+        {
+          "id": "skin_irritation",
+          "label": "Skin Irritation",
+          "index": 271
+        },
+        {
+          "id": "itchy_scalp",
+          "label": "Itchy Scalp",
+          "index": 272
+        },
+        {
+          "id": "warts",
+          "label": "Warts",
+          "index": 276
+        },
+        {
+          "id": "bumps_on_penis",
+          "label": "Bumps On Penis",
+          "index": 277
+        },
+        {
+          "id": "too_little_hair",
+          "label": "Too Little Hair",
+          "index": 278
+        },
+        {
+          "id": "skin_rash",
+          "label": "Skin Rash",
+          "index": 280
+        },
+        {
+          "id": "dry_or_flaky_scalp",
+          "label": "Dry Or Flaky Scalp",
+          "index": 286
+        },
+        {
+          "id": "itching_of_the_anus",
+          "label": "Itching Of The Anus",
+          "index": 300
+        },
+        {
+          "id": "skin_oiliness",
+          "label": "Skin Oiliness",
+          "index": 321
+        },
+        {
+          "id": "change_in_skin_mole_size_or_color",
+          "label": "Change In Skin Mole Size Or Color",
+          "index": 330
+        },
+        {
+          "id": "diaper_rash",
+          "label": "Diaper Rash",
+          "index": 342
+        },
+        {
+          "id": "itching_of_scrotum",
+          "label": "Itching Of Scrotum",
+          "index": 348
+        },
+        {
+          "id": "wrinkles_on_skin",
+          "label": "Wrinkles On Skin",
+          "index": 358
+        },
+        {
+          "id": "skin_pain",
+          "label": "Skin Pain",
+          "index": 363
+        },
+        {
+          "id": "skin_on_head_or_neck_looks_infected",
+          "label": "Skin On Head Or Neck Looks Infected",
+          "index": 366
+        }
+      ]
+    },
+    {
+      "id": "eye",
+      "label": "Eye & Vision",
+      "count": 23,
+      "symptoms": [
+        {
+          "id": "white_discharge_from_eye",
+          "label": "White Discharge From Eye",
+          "index": 41
+        },
+        {
+          "id": "eye_deviation",
+          "label": "Eye Deviation",
+          "index": 82
+        },
+        {
+          "id": "diminished_vision",
+          "label": "Diminished Vision",
+          "index": 83
+        },
+        {
+          "id": "double_vision",
+          "label": "Double Vision",
+          "index": 84
+        },
+        {
+          "id": "crosseyed",
+          "label": "Crosseyed",
+          "index": 85
+        },
+        {
+          "id": "symptoms_of_eye",
+          "label": "Symptoms Of Eye",
+          "index": 86
+        },
+        {
+          "id": "pain_in_eye",
+          "label": "Pain In Eye",
+          "index": 87
+        },
+        {
+          "id": "eye_moves_abnormally",
+          "label": "Eye Moves Abnormally",
+          "index": 88
+        },
+        {
+          "id": "abnormal_movement_of_eyelid",
+          "label": "Abnormal Movement Of Eyelid",
+          "index": 89
+        },
+        {
+          "id": "foreign_body_sensation_in_eye",
+          "label": "Foreign Body Sensation In Eye",
+          "index": 90
+        },
+        {
+          "id": "spots_or_clouds_in_vision",
+          "label": "Spots Or Clouds In Vision",
+          "index": 150
+        },
+        {
+          "id": "eye_redness",
+          "label": "Eye Redness",
+          "index": 151
+        },
+        {
+          "id": "lacrimation",
+          "label": "Lacrimation",
+          "index": 152
+        },
+        {
+          "id": "blindness",
+          "label": "Blindness",
+          "index": 154
+        },
+        {
+          "id": "eye_burns_or_stings",
+          "label": "Eye Burns Or Stings",
+          "index": 155
+        },
+        {
+          "id": "bleeding_from_eye",
+          "label": "Bleeding From Eye",
+          "index": 211
+        },
+        {
+          "id": "eye_strain",
+          "label": "Eye Strain",
+          "index": 217
+        },
+        {
+          "id": "mass_on_eyelid",
+          "label": "Mass On Eyelid",
+          "index": 259
+        },
+        {
+          "id": "swollen_eye",
+          "label": "Swollen Eye",
+          "index": 260
+        },
+        {
+          "id": "eyelid_swelling",
+          "label": "Eyelid Swelling",
+          "index": 261
+        },
+        {
+          "id": "pupils_unequal",
+          "label": "Pupils Unequal",
+          "index": 317
+        },
+        {
+          "id": "cloudy_eye",
+          "label": "Cloudy Eye",
+          "index": 335
+        },
+        {
+          "id": "eyelid_retracted",
+          "label": "Eyelid Retracted",
+          "index": 350
+        }
+      ]
+    },
+    {
+      "id": "ear",
+      "label": "Ear & Hearing",
+      "count": 20,
+      "symptoms": [
+        {
+          "id": "irregular_heartbeat",
+          "label": "Irregular Heartbeat",
+          "index": 10
+        },
+        {
+          "id": "diminished_hearing",
+          "label": "Diminished Hearing",
+          "index": 18
+        },
+        {
+          "id": "pus_draining_from_ear",
+          "label": "Pus Draining From Ear",
+          "index": 38
+        },
+        {
+          "id": "irregular_appearing_scalp",
+          "label": "Irregular Appearing Scalp",
+          "index": 91
+        },
+        {
+          "id": "ear_pain",
+          "label": "Ear Pain",
+          "index": 109
+        },
+        {
+          "id": "heartburn",
+          "label": "Heartburn",
+          "index": 128
+        },
+        {
+          "id": "decreased_heart_rate",
+          "label": "Decreased Heart Rate",
+          "index": 141
+        },
+        {
+          "id": "increased_heart_rate",
+          "label": "Increased Heart Rate",
+          "index": 142
+        },
+        {
+          "id": "ringing_in_ear",
+          "label": "Ringing In Ear",
+          "index": 144
+        },
+        {
+          "id": "plugged_feeling_in_ear",
+          "label": "Plugged Feeling In Ear",
+          "index": 145
+        },
+        {
+          "id": "fluid_in_ear",
+          "label": "Fluid In Ear",
+          "index": 148
+        },
+        {
+          "id": "abnormal_appearing_tongue",
+          "label": "Abnormal Appearing Tongue",
+          "index": 176
+        },
+        {
+          "id": "changes_in_stool_appearance",
+          "label": "Changes In Stool Appearance",
+          "index": 184
+        },
+        {
+          "id": "abnormal_size_or_shape_of_ear",
+          "label": "Abnormal Size Or Shape Of Ear",
+          "index": 225
+        },
+        {
+          "id": "pulling_at_ears",
+          "label": "Pulling At Ears",
+          "index": 235
+        },
+        {
+          "id": "redness_in_ear",
+          "label": "Redness In Ear",
+          "index": 237
+        },
+        {
+          "id": "fears_and_phobias",
+          "label": "Fears And Phobias",
+          "index": 242
+        },
+        {
+          "id": "early_or_late_onset_of_menopause",
+          "label": "Early Or Late Onset Of Menopause",
+          "index": 294
+        },
+        {
+          "id": "mass_on_ear",
+          "label": "Mass On Ear",
+          "index": 295
+        },
+        {
+          "id": "bleeding_from_ear",
+          "label": "Bleeding From Ear",
+          "index": 296
+        }
+      ]
+    },
+    {
+      "id": "throat_mouth",
+      "label": "Throat, Mouth & Nose",
+      "count": 29,
+      "symptoms": [
+        {
+          "id": "hoarse_voice",
+          "label": "Hoarse Voice",
+          "index": 12
+        },
+        {
+          "id": "sore_throat",
+          "label": "Sore Throat",
+          "index": 13
+        },
+        {
+          "id": "difficulty_speaking",
+          "label": "Difficulty Speaking",
+          "index": 14
+        },
+        {
+          "id": "nasal_congestion",
+          "label": "Nasal Congestion",
+          "index": 16
+        },
+        {
+          "id": "throat_swelling",
+          "label": "Throat Swelling",
+          "index": 17
+        },
+        {
+          "id": "lump_in_throat",
+          "label": "Lump In Throat",
+          "index": 19
+        },
+        {
+          "id": "throat_feels_tight",
+          "label": "Throat Feels Tight",
+          "index": 20
+        },
+        {
+          "id": "difficulty_in_swallowing",
+          "label": "Difficulty In Swallowing",
+          "index": 21
+        },
+        {
+          "id": "lip_swelling",
+          "label": "Lip Swelling",
+          "index": 73
+        },
+        {
+          "id": "dry_lips",
+          "label": "Dry Lips",
+          "index": 78
+        },
+        {
+          "id": "mouth_ulcer",
+          "label": "Mouth Ulcer",
+          "index": 80
+        },
+        {
+          "id": "mouth_dryness",
+          "label": "Mouth Dryness",
+          "index": 111
+        },
+        {
+          "id": "coryza",
+          "label": "Coryza",
+          "index": 215
+        },
+        {
+          "id": "congestion_in_chest",
+          "label": "Congestion In Chest",
+          "index": 222
+        },
+        {
+          "id": "sinus_congestion",
+          "label": "Sinus Congestion",
+          "index": 240
+        },
+        {
+          "id": "nosebleed",
+          "label": "Nosebleed",
+          "index": 251
+        },
+        {
+          "id": "drainage_in_throat",
+          "label": "Drainage In Throat",
+          "index": 285
+        },
+        {
+          "id": "throat_irritation",
+          "label": "Throat Irritation",
+          "index": 299
+        },
+        {
+          "id": "swollen_tongue",
+          "label": "Swollen Tongue",
+          "index": 303
+        },
+        {
+          "id": "lip_sore",
+          "label": "Lip Sore",
+          "index": 304
+        },
+        {
+          "id": "mouth_pain",
+          "label": "Mouth Pain",
+          "index": 307
+        },
+        {
+          "id": "sneezing",
+          "label": "Sneezing",
+          "index": 322
+        },
+        {
+          "id": "bleeding_in_mouth",
+          "label": "Bleeding In Mouth",
+          "index": 328
+        },
+        {
+          "id": "tongue_bleeding",
+          "label": "Tongue Bleeding",
+          "index": 329
+        },
+        {
+          "id": "throat_redness",
+          "label": "Throat Redness",
+          "index": 354
+        },
+        {
+          "id": "tongue_pain",
+          "label": "Tongue Pain",
+          "index": 356
+        },
+        {
+          "id": "redness_in_or_around_nose",
+          "label": "Redness In Or Around Nose",
+          "index": 357
+        },
+        {
+          "id": "nose_deformity",
+          "label": "Nose Deformity",
+          "index": 369
+        },
+        {
+          "id": "sore_in_nose",
+          "label": "Sore In Nose",
+          "index": 371
+        }
+      ]
+    },
+    {
+      "id": "respiratory",
+      "label": "Respiratory",
+      "count": 17,
+      "symptoms": [
+        {
+          "id": "shortness_of_breath",
+          "label": "Shortness Of Breath",
+          "index": 2
+        },
+        {
+          "id": "sharp_chest_pain",
+          "label": "Sharp Chest Pain",
+          "index": 4
+        },
+        {
+          "id": "chest_tightness",
+          "label": "Chest Tightness",
+          "index": 8
+        },
+        {
+          "id": "breathing_fast",
+          "label": "Breathing Fast",
+          "index": 11
+        },
+        {
+          "id": "cough",
+          "label": "Cough",
+          "index": 15
+        },
+        {
+          "id": "pus_in_sputum",
+          "label": "Pus In Sputum",
+          "index": 33
+        },
+        {
+          "id": "wheezing",
+          "label": "Wheezing",
+          "index": 106
+        },
+        {
+          "id": "smoking_problems",
+          "label": "Smoking Problems",
+          "index": 129
+        },
+        {
+          "id": "difficulty_breathing",
+          "label": "Difficulty Breathing",
+          "index": 190
+        },
+        {
+          "id": "coughing_up_sputum",
+          "label": "Coughing Up Sputum",
+          "index": 204
+        },
+        {
+          "id": "hemoptysis",
+          "label": "Hemoptysis",
+          "index": 218
+        },
+        {
+          "id": "apnea",
+          "label": "Apnea",
+          "index": 228
+        },
+        {
+          "id": "abnormal_breathing_sounds",
+          "label": "Abnormal Breathing Sounds",
+          "index": 229
+        },
+        {
+          "id": "fluid_retention",
+          "label": "Fluid Retention",
+          "index": 238
+        },
+        {
+          "id": "flulike_syndrome",
+          "label": "Flulike Syndrome",
+          "index": 239
+        },
+        {
+          "id": "burning_chest_pain",
+          "label": "Burning Chest Pain",
+          "index": 245
+        },
+        {
+          "id": "hurts_to_breath",
+          "label": "Hurts To Breath",
+          "index": 267
+        }
+      ]
+    },
+    {
+      "id": "cardiovascular",
+      "label": "Cardiovascular",
+      "count": 1,
+      "symptoms": [
+        {
+          "id": "palpitations",
+          "label": "Palpitations",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "neurological",
+      "label": "Neurological",
+      "count": 25,
+      "symptoms": [
+        {
+          "id": "dizziness",
+          "label": "Dizziness",
+          "index": 5
+        },
+        {
+          "id": "abnormal_involuntary_movements",
+          "label": "Abnormal Involuntary Movements",
+          "index": 7
+        },
+        {
+          "id": "fainting",
+          "label": "Fainting",
+          "index": 44
+        },
+        {
+          "id": "headache",
+          "label": "Headache",
+          "index": 50
+        },
+        {
+          "id": "involuntary_urination",
+          "label": "Involuntary Urination",
+          "index": 56
+        },
+        {
+          "id": "problems_with_movement",
+          "label": "Problems With Movement",
+          "index": 124
+        },
+        {
+          "id": "frontal_headache",
+          "label": "Frontal Headache",
+          "index": 147
+        },
+        {
+          "id": "loss_of_sensation",
+          "label": "Loss Of Sensation",
+          "index": 161
+        },
+        {
+          "id": "slurring_words",
+          "label": "Slurring Words",
+          "index": 163
+        },
+        {
+          "id": "disturbance_of_memory",
+          "label": "Disturbance Of Memory",
+          "index": 165
+        },
+        {
+          "id": "paresthesia",
+          "label": "Paresthesia",
+          "index": 166
+        },
+        {
+          "id": "arm_cramps_or_spasms",
+          "label": "Arm Cramps Or Spasms",
+          "index": 172
+        },
+        {
+          "id": "leg_cramps_or_spasms",
+          "label": "Leg Cramps Or Spasms",
+          "index": 175
+        },
+        {
+          "id": "cramps_and_spasms",
+          "label": "Cramps And Spasms",
+          "index": 181
+        },
+        {
+          "id": "seizures",
+          "label": "Seizures",
+          "index": 205
+        },
+        {
+          "id": "shoulder_cramps_or_spasms",
+          "label": "Shoulder Cramps Or Spasms",
+          "index": 207
+        },
+        {
+          "id": "elbow_cramps_or_spasms",
+          "label": "Elbow Cramps Or Spasms",
+          "index": 231
+        },
+        {
+          "id": "back_cramps_or_spasms",
+          "label": "Back Cramps Or Spasms",
+          "index": 246
+        },
+        {
+          "id": "stiffness_all_over",
+          "label": "Stiffness All Over",
+          "index": 247
+        },
+        {
+          "id": "muscle_cramps_contractures_or_spasms",
+          "label": "Muscle Cramps Contractures Or Spasms",
+          "index": 248
+        },
+        {
+          "id": "low_back_cramps_or_spasms",
+          "label": "Low Back Cramps Or Spasms",
+          "index": 249
+        },
+        {
+          "id": "foot_or_toe_cramps_or_spasms",
+          "label": "Foot Or Toe Cramps Or Spasms",
+          "index": 275
+        },
+        {
+          "id": "neck_cramps_or_spasms",
+          "label": "Neck Cramps Or Spasms",
+          "index": 316
+        },
+        {
+          "id": "knee_cramps_or_spasms",
+          "label": "Knee Cramps Or Spasms",
+          "index": 324
+        },
+        {
+          "id": "hand_or_finger_cramps_or_spasms",
+          "label": "Hand Or Finger Cramps Or Spasms",
+          "index": 360
+        }
+      ]
+    },
+    {
+      "id": "mental_health",
+      "label": "Mental Health & Behaviour",
+      "count": 19,
+      "symptoms": [
+        {
+          "id": "anxiety_and_nervousness",
+          "label": "Anxiety And Nervousness",
+          "index": 0
+        },
+        {
+          "id": "depression",
+          "label": "Depression",
+          "index": 1
+        },
+        {
+          "id": "depressive_or_psychotic_symptoms",
+          "label": "Depressive Or Psychotic Symptoms",
+          "index": 3
+        },
+        {
+          "id": "insomnia",
+          "label": "Insomnia",
+          "index": 6
+        },
+        {
+          "id": "emotional_symptoms",
+          "label": "Emotional Symptoms",
+          "index": 30
+        },
+        {
+          "id": "irritable_infant",
+          "label": "Irritable Infant",
+          "index": 42
+        },
+        {
+          "id": "abusing_alcohol",
+          "label": "Abusing Alcohol",
+          "index": 43
+        },
+        {
+          "id": "hostile_behavior",
+          "label": "Hostile Behavior",
+          "index": 45
+        },
+        {
+          "id": "drug_abuse",
+          "label": "Drug Abuse",
+          "index": 46
+        },
+        {
+          "id": "restlessness",
+          "label": "Restlessness",
+          "index": 104
+        },
+        {
+          "id": "excessive_anger",
+          "label": "Excessive Anger",
+          "index": 160
+        },
+        {
+          "id": "delusions_or_hallucinations",
+          "label": "Delusions Or Hallucinations",
+          "index": 206
+        },
+        {
+          "id": "temper_problems",
+          "label": "Temper Problems",
+          "index": 214
+        },
+        {
+          "id": "sleepiness",
+          "label": "Sleepiness",
+          "index": 227
+        },
+        {
+          "id": "premenstrual_tension_or_irritability",
+          "label": "Premenstrual Tension Or Irritability",
+          "index": 287
+        },
+        {
+          "id": "low_selfesteem",
+          "label": "Low Selfesteem",
+          "index": 298
+        },
+        {
+          "id": "antisocial_behavior",
+          "label": "Antisocial Behavior",
+          "index": 315
+        },
+        {
+          "id": "sleepwalking",
+          "label": "Sleepwalking",
+          "index": 320
+        },
+        {
+          "id": "hysterical_behavior",
+          "label": "Hysterical Behavior",
+          "index": 336
+        }
+      ]
+    },
+    {
+      "id": "digestive",
+      "label": "Digestive & Abdominal",
+      "count": 27,
+      "symptoms": [
+        {
+          "id": "blood_in_stool",
+          "label": "Blood In Stool",
+          "index": 28
+        },
+        {
+          "id": "flatulence",
+          "label": "Flatulence",
+          "index": 37
+        },
+        {
+          "id": "sharp_abdominal_pain",
+          "label": "Sharp Abdominal Pain",
+          "index": 47
+        },
+        {
+          "id": "vomiting",
+          "label": "Vomiting",
+          "index": 49
+        },
+        {
+          "id": "nausea",
+          "label": "Nausea",
+          "index": 51
+        },
+        {
+          "id": "diarrhea",
+          "label": "Diarrhea",
+          "index": 52
+        },
+        {
+          "id": "lower_abdominal_pain",
+          "label": "Lower Abdominal Pain",
+          "index": 59
+        },
+        {
+          "id": "pain_of_the_anus",
+          "label": "Pain Of The Anus",
+          "index": 96
+        },
+        {
+          "id": "infant_spitting_up",
+          "label": "Infant Spitting Up",
+          "index": 100
+        },
+        {
+          "id": "vomiting_blood",
+          "label": "Vomiting Blood",
+          "index": 101
+        },
+        {
+          "id": "regurgitation",
+          "label": "Regurgitation",
+          "index": 102
+        },
+        {
+          "id": "burning_abdominal_pain",
+          "label": "Burning Abdominal Pain",
+          "index": 103
+        },
+        {
+          "id": "difficulty_eating",
+          "label": "Difficulty Eating",
+          "index": 135
+        },
+        {
+          "id": "decreased_appetite",
+          "label": "Decreased Appetite",
+          "index": 158
+        },
+        {
+          "id": "excessive_appetite",
+          "label": "Excessive Appetite",
+          "index": 159
+        },
+        {
+          "id": "upper_abdominal_pain",
+          "label": "Upper Abdominal Pain",
+          "index": 182
+        },
+        {
+          "id": "stomach_bloating",
+          "label": "Stomach Bloating",
+          "index": 183
+        },
+        {
+          "id": "swollen_abdomen",
+          "label": "Swollen Abdomen",
+          "index": 187
+        },
+        {
+          "id": "abdominal_distention",
+          "label": "Abdominal Distention",
+          "index": 199
+        },
+        {
+          "id": "regurgitation1",
+          "label": "Regurgitation1",
+          "index": 200
+        },
+        {
+          "id": "melena",
+          "label": "Melena",
+          "index": 202
+        },
+        {
+          "id": "rectal_bleeding",
+          "label": "Rectal Bleeding",
+          "index": 212
+        },
+        {
+          "id": "constipation",
+          "label": "Constipation",
+          "index": 213
+        },
+        {
+          "id": "incontinence_of_stool",
+          "label": "Incontinence Of Stool",
+          "index": 274
+        },
+        {
+          "id": "mass_or_swelling_around_the_anus",
+          "label": "Mass Or Swelling Around The Anus",
+          "index": 281
+        },
+        {
+          "id": "discharge_in_stools",
+          "label": "Discharge In Stools",
+          "index": 311
+        },
+        {
+          "id": "problems_with_orgasm",
+          "label": "Problems With Orgasm",
+          "index": 368
+        }
+      ]
+    },
+    {
+      "id": "urinary",
+      "label": "Urinary & Kidney",
+      "count": 11,
+      "symptoms": [
+        {
+          "id": "retention_of_urine",
+          "label": "Retention Of Urine",
+          "index": 23
+        },
+        {
+          "id": "frequent_urination",
+          "label": "Frequent Urination",
+          "index": 58
+        },
+        {
+          "id": "blood_in_urine",
+          "label": "Blood In Urine",
+          "index": 61
+        },
+        {
+          "id": "unusual_color_or_odor_to_urine",
+          "label": "Unusual Color Or Odor To Urine",
+          "index": 185
+        },
+        {
+          "id": "kidney_mass",
+          "label": "Kidney Mass",
+          "index": 186
+        },
+        {
+          "id": "symptoms_of_the_kidneys",
+          "label": "Symptoms Of The Kidneys",
+          "index": 201
+        },
+        {
+          "id": "excessive_urination_at_night",
+          "label": "Excessive Urination At Night",
+          "index": 210
+        },
+        {
+          "id": "pus_in_urine",
+          "label": "Pus In Urine",
+          "index": 224
+        },
+        {
+          "id": "symptoms_of_bladder",
+          "label": "Symptoms Of Bladder",
+          "index": 264
+        },
+        {
+          "id": "bladder_mass",
+          "label": "Bladder Mass",
+          "index": 323
+        },
+        {
+          "id": "low_urine_output",
+          "label": "Low Urine Output",
+          "index": 365
+        }
+      ]
+    },
+    {
+      "id": "musculoskeletal",
+      "label": "Muscles & Joints",
+      "count": 66,
+      "symptoms": [
+        {
+          "id": "leg_pain",
+          "label": "Leg Pain",
+          "index": 25
+        },
+        {
+          "id": "hip_pain",
+          "label": "Hip Pain",
+          "index": 26
+        },
+        {
+          "id": "elbow_weakness",
+          "label": "Elbow Weakness",
+          "index": 31
+        },
+        {
+          "id": "back_weakness",
+          "label": "Back Weakness",
+          "index": 32
+        },
+        {
+          "id": "hand_or_finger_pain",
+          "label": "Hand Or Finger Pain",
+          "index": 64
+        },
+        {
+          "id": "wrist_pain",
+          "label": "Wrist Pain",
+          "index": 65
+        },
+        {
+          "id": "hand_or_finger_swelling",
+          "label": "Hand Or Finger Swelling",
+          "index": 66
+        },
+        {
+          "id": "arm_pain",
+          "label": "Arm Pain",
+          "index": 67
+        },
+        {
+          "id": "wrist_swelling",
+          "label": "Wrist Swelling",
+          "index": 68
+        },
+        {
+          "id": "arm_stiffness_or_tightness",
+          "label": "Arm Stiffness Or Tightness",
+          "index": 69
+        },
+        {
+          "id": "arm_swelling",
+          "label": "Arm Swelling",
+          "index": 70
+        },
+        {
+          "id": "hand_or_finger_stiffness_or_tightness",
+          "label": "Hand Or Finger Stiffness Or Tightness",
+          "index": 71
+        },
+        {
+          "id": "wrist_stiffness_or_tightness",
+          "label": "Wrist Stiffness Or Tightness",
+          "index": 72
+        },
+        {
+          "id": "swollen_lymph_nodes",
+          "label": "Swollen Lymph Nodes",
+          "index": 92
+        },
+        {
+          "id": "back_pain",
+          "label": "Back Pain",
+          "index": 93
+        },
+        {
+          "id": "low_back_pain",
+          "label": "Low Back Pain",
+          "index": 95
+        },
+        {
+          "id": "knee_pain",
+          "label": "Knee Pain",
+          "index": 113
+        },
+        {
+          "id": "foot_or_toe_pain",
+          "label": "Foot Or Toe Pain",
+          "index": 114
+        },
+        {
+          "id": "bowlegged_or_knockkneed",
+          "label": "Bowlegged Or Knockkneed",
+          "index": 115
+        },
+        {
+          "id": "ankle_pain",
+          "label": "Ankle Pain",
+          "index": 116
+        },
+        {
+          "id": "knee_weakness",
+          "label": "Knee Weakness",
+          "index": 118
+        },
+        {
+          "id": "elbow_pain",
+          "label": "Elbow Pain",
+          "index": 119
+        },
+        {
+          "id": "knee_swelling",
+          "label": "Knee Swelling",
+          "index": 120
+        },
+        {
+          "id": "knee_lump_or_mass",
+          "label": "Knee Lump Or Mass",
+          "index": 122
+        },
+        {
+          "id": "knee_stiffness_or_tightness",
+          "label": "Knee Stiffness Or Tightness",
+          "index": 125
+        },
+        {
+          "id": "foot_or_toe_swelling",
+          "label": "Foot Or Toe Swelling",
+          "index": 127
+        },
+        {
+          "id": "muscle_pain",
+          "label": "Muscle Pain",
+          "index": 130
+        },
+        {
+          "id": "weakness",
+          "label": "Weakness",
+          "index": 140
+        },
+        {
+          "id": "neck_stiffness_or_tightness",
+          "label": "Neck Stiffness Or Tightness",
+          "index": 149
+        },
+        {
+          "id": "focal_weakness",
+          "label": "Focal Weakness",
+          "index": 162
+        },
+        {
+          "id": "shoulder_pain",
+          "label": "Shoulder Pain",
+          "index": 169
+        },
+        {
+          "id": "shoulder_stiffness_or_tightness",
+          "label": "Shoulder Stiffness Or Tightness",
+          "index": 170
+        },
+        {
+          "id": "shoulder_weakness",
+          "label": "Shoulder Weakness",
+          "index": 171
+        },
+        {
+          "id": "shoulder_swelling",
+          "label": "Shoulder Swelling",
+          "index": 173
+        },
+        {
+          "id": "leg_stiffness_or_tightness",
+          "label": "Leg Stiffness Or Tightness",
+          "index": 189
+        },
+        {
+          "id": "joint_pain",
+          "label": "Joint Pain",
+          "index": 192
+        },
+        {
+          "id": "muscle_stiffness_or_tightness",
+          "label": "Muscle Stiffness Or Tightness",
+          "index": 193
+        },
+        {
+          "id": "hand_or_finger_lump_or_mass",
+          "label": "Hand Or Finger Lump Or Mass",
+          "index": 195
+        },
+        {
+          "id": "fatigue",
+          "label": "Fatigue",
+          "index": 198
+        },
+        {
+          "id": "joint_stiffness_or_tightness",
+          "label": "Joint Stiffness Or Tightness",
+          "index": 208
+        },
+        {
+          "id": "wrist_weakness",
+          "label": "Wrist Weakness",
+          "index": 216
+        },
+        {
+          "id": "muscle_swelling",
+          "label": "Muscle Swelling",
+          "index": 223
+        },
+        {
+          "id": "low_back_weakness",
+          "label": "Low Back Weakness",
+          "index": 226
+        },
+        {
+          "id": "hip_swelling",
+          "label": "Hip Swelling",
+          "index": 273
+        },
+        {
+          "id": "foot_or_toe_lump_or_mass",
+          "label": "Foot Or Toe Lump Or Mass",
+          "index": 279
+        },
+        {
+          "id": "ankle_swelling",
+          "label": "Ankle Swelling",
+          "index": 283
+        },
+        {
+          "id": "hip_lump_or_mass",
+          "label": "Hip Lump Or Mass",
+          "index": 284
+        },
+        {
+          "id": "foot_or_toe_stiffness_or_tightness",
+          "label": "Foot Or Toe Stiffness Or Tightness",
+          "index": 290
+        },
+        {
+          "id": "elbow_swelling",
+          "label": "Elbow Swelling",
+          "index": 292
+        },
+        {
+          "id": "elbow_stiffness_or_tightness",
+          "label": "Elbow Stiffness Or Tightness",
+          "index": 293
+        },
+        {
+          "id": "hand_or_finger_weakness",
+          "label": "Hand Or Finger Weakness",
+          "index": 297
+        },
+        {
+          "id": "hip_stiffness_or_tightness",
+          "label": "Hip Stiffness Or Tightness",
+          "index": 306
+        },
+        {
+          "id": "arm_weakness",
+          "label": "Arm Weakness",
+          "index": 308
+        },
+        {
+          "id": "leg_weakness",
+          "label": "Leg Weakness",
+          "index": 326
+        },
+        {
+          "id": "shoulder_lump_or_mass",
+          "label": "Shoulder Lump Or Mass",
+          "index": 333
+        },
+        {
+          "id": "elbow_lump_or_mass",
+          "label": "Elbow Lump Or Mass",
+          "index": 352
+        },
+        {
+          "id": "muscle_weakness",
+          "label": "Muscle Weakness",
+          "index": 353
+        },
+        {
+          "id": "joint_swelling",
+          "label": "Joint Swelling",
+          "index": 355
+        },
+        {
+          "id": "foot_or_toe_weakness",
+          "label": "Foot Or Toe Weakness",
+          "index": 359
+        },
+        {
+          "id": "back_stiffness_or_tightness",
+          "label": "Back Stiffness Or Tightness",
+          "index": 361
+        },
+        {
+          "id": "wrist_lump_or_mass",
+          "label": "Wrist Lump Or Mass",
+          "index": 362
+        },
+        {
+          "id": "low_back_stiffness_or_tightness",
+          "label": "Low Back Stiffness Or Tightness",
+          "index": 364
+        },
+        {
+          "id": "hip_weakness",
+          "label": "Hip Weakness",
+          "index": 372
+        },
+        {
+          "id": "ankle_stiffness_or_tightness",
+          "label": "Ankle Stiffness Or Tightness",
+          "index": 374
+        },
+        {
+          "id": "ankle_weakness",
+          "label": "Ankle Weakness",
+          "index": 375
+        },
+        {
+          "id": "neck_weakness",
+          "label": "Neck Weakness",
+          "index": 376
+        }
+      ]
+    },
+    {
+      "id": "pain_general",
+      "label": "Pain & Discomfort",
+      "count": 23,
+      "symptoms": [
+        {
+          "id": "suprapubic_pain",
+          "label": "Suprapubic Pain",
+          "index": 27
+        },
+        {
+          "id": "pain_in_testicles",
+          "label": "Pain In Testicles",
+          "index": 36
+        },
+        {
+          "id": "painful_urination",
+          "label": "Painful Urination",
+          "index": 55
+        },
+        {
+          "id": "pain_during_intercourse",
+          "label": "Pain During Intercourse",
+          "index": 57
+        },
+        {
+          "id": "toothache",
+          "label": "Toothache",
+          "index": 74
+        },
+        {
+          "id": "facial_pain",
+          "label": "Facial Pain",
+          "index": 79
+        },
+        {
+          "id": "neck_pain",
+          "label": "Neck Pain",
+          "index": 94
+        },
+        {
+          "id": "pain_during_pregnancy",
+          "label": "Pain During Pregnancy",
+          "index": 97
+        },
+        {
+          "id": "pelvic_pain",
+          "label": "Pelvic Pain",
+          "index": 98
+        },
+        {
+          "id": "bones_are_painful",
+          "label": "Bones Are Painful",
+          "index": 117
+        },
+        {
+          "id": "vaginal_pain",
+          "label": "Vaginal Pain",
+          "index": 137
+        },
+        {
+          "id": "side_pain",
+          "label": "Side Pain",
+          "index": 167
+        },
+        {
+          "id": "ache_all_over",
+          "label": "Ache All Over",
+          "index": 177
+        },
+        {
+          "id": "lower_body_pain",
+          "label": "Lower Body Pain",
+          "index": 178
+        },
+        {
+          "id": "rib_pain",
+          "label": "Rib Pain",
+          "index": 191
+        },
+        {
+          "id": "groin_pain",
+          "label": "Groin Pain",
+          "index": 197
+        },
+        {
+          "id": "pain_or_soreness_of_breast",
+          "label": "Pain Or Soreness Of Breast",
+          "index": 209
+        },
+        {
+          "id": "gum_pain",
+          "label": "Gum Pain",
+          "index": 236
+        },
+        {
+          "id": "painful_sinuses",
+          "label": "Painful Sinuses",
+          "index": 241
+        },
+        {
+          "id": "painful_menstruation",
+          "label": "Painful Menstruation",
+          "index": 255
+        },
+        {
+          "id": "penis_pain",
+          "label": "Penis Pain",
+          "index": 312
+        },
+        {
+          "id": "pain_in_gums",
+          "label": "Pain In Gums",
+          "index": 340
+        },
+        {
+          "id": "jaw_pain",
+          "label": "Jaw Pain",
+          "index": 347
+        }
+      ]
+    },
+    {
+      "id": "reproductive",
+      "label": "Reproductive & Sexual",
+      "count": 32,
+      "symptoms": [
+        {
+          "id": "groin_mass",
+          "label": "Groin Mass",
+          "index": 24
+        },
+        {
+          "id": "symptoms_of_the_scrotum_and_testes",
+          "label": "Symptoms Of The Scrotum And Testes",
+          "index": 34
+        },
+        {
+          "id": "swelling_of_scrotum",
+          "label": "Swelling Of Scrotum",
+          "index": 35
+        },
+        {
+          "id": "mass_in_scrotum",
+          "label": "Mass In Scrotum",
+          "index": 40
+        },
+        {
+          "id": "vaginal_dryness",
+          "label": "Vaginal Dryness",
+          "index": 54
+        },
+        {
+          "id": "vaginal_discharge",
+          "label": "Vaginal Discharge",
+          "index": 60
+        },
+        {
+          "id": "hot_flashes",
+          "label": "Hot Flashes",
+          "index": 62
+        },
+        {
+          "id": "intermenstrual_bleeding",
+          "label": "Intermenstrual Bleeding",
+          "index": 63
+        },
+        {
+          "id": "impotence",
+          "label": "Impotence",
+          "index": 99
+        },
+        {
+          "id": "problems_with_shape_or_size_of_breast",
+          "label": "Problems With Shape Or Size Of Breast",
+          "index": 133
+        },
+        {
+          "id": "scanty_menstrual_flow",
+          "label": "Scanty Menstrual Flow",
+          "index": 136
+        },
+        {
+          "id": "vaginal_redness",
+          "label": "Vaginal Redness",
+          "index": 138
+        },
+        {
+          "id": "vulvar_irritation",
+          "label": "Vulvar Irritation",
+          "index": 139
+        },
+        {
+          "id": "problems_during_pregnancy",
+          "label": "Problems During Pregnancy",
+          "index": 179
+        },
+        {
+          "id": "spotting_or_bleeding_during_pregnancy",
+          "label": "Spotting Or Bleeding During Pregnancy",
+          "index": 180
+        },
+        {
+          "id": "symptoms_of_prostate",
+          "label": "Symptoms Of Prostate",
+          "index": 188
+        },
+        {
+          "id": "blood_clots_during_menstrual_periods",
+          "label": "Blood Clots During Menstrual Periods",
+          "index": 233
+        },
+        {
+          "id": "absence_of_menstruation",
+          "label": "Absence Of Menstruation",
+          "index": 234
+        },
+        {
+          "id": "recent_pregnancy",
+          "label": "Recent Pregnancy",
+          "index": 243
+        },
+        {
+          "id": "uterine_contractions",
+          "label": "Uterine Contractions",
+          "index": 244
+        },
+        {
+          "id": "long_menstrual_periods",
+          "label": "Long Menstrual Periods",
+          "index": 252
+        },
+        {
+          "id": "heavy_menstrual_flow",
+          "label": "Heavy Menstrual Flow",
+          "index": 253
+        },
+        {
+          "id": "unpredictable_menstruation",
+          "label": "Unpredictable Menstruation",
+          "index": 254
+        },
+        {
+          "id": "infertility",
+          "label": "Infertility",
+          "index": 256
+        },
+        {
+          "id": "frequent_menstruation",
+          "label": "Frequent Menstruation",
+          "index": 257
+        },
+        {
+          "id": "pelvic_pressure",
+          "label": "Pelvic Pressure",
+          "index": 291
+        },
+        {
+          "id": "vulvar_sore",
+          "label": "Vulvar Sore",
+          "index": 305
+        },
+        {
+          "id": "penis_redness",
+          "label": "Penis Redness",
+          "index": 331
+        },
+        {
+          "id": "lump_or_mass_of_breast",
+          "label": "Lump Or Mass Of Breast",
+          "index": 343
+        },
+        {
+          "id": "vaginal_bleeding_after_menopause",
+          "label": "Vaginal Bleeding After Menopause",
+          "index": 344
+        },
+        {
+          "id": "infrequent_menstruation",
+          "label": "Infrequent Menstruation",
+          "index": 345
+        },
+        {
+          "id": "postpartum_problems_of_the_breast",
+          "label": "Postpartum Problems Of The Breast",
+          "index": 349
+        }
+      ]
+    },
+    {
+      "id": "pediatric",
+      "label": "Paediatric & Growth",
+      "count": 6,
+      "symptoms": [
+        {
+          "id": "lack_of_growth",
+          "label": "Lack Of Growth",
+          "index": 29
+        },
+        {
+          "id": "symptoms_of_infants",
+          "label": "Symptoms Of Infants",
+          "index": 105
+        },
+        {
+          "id": "infant_feeding_problem",
+          "label": "Infant Feeding Problem",
+          "index": 131
+        },
+        {
+          "id": "excessive_growth",
+          "label": "Excessive Growth",
+          "index": 230
+        },
+        {
+          "id": "feet_turned_in",
+          "label": "Feet Turned In",
+          "index": 289
+        },
+        {
+          "id": "irregular_belly_button",
+          "label": "Irregular Belly Button",
+          "index": 302
+        }
+      ]
+    },
+    {
+      "id": "systemic",
+      "label": "Systemic & General",
+      "count": 24,
+      "symptoms": [
+        {
+          "id": "feeling_ill",
+          "label": "Feeling Ill",
+          "index": 48
+        },
+        {
+          "id": "peripheral_edema",
+          "label": "Peripheral Edema",
+          "index": 107
+        },
+        {
+          "id": "neck_mass",
+          "label": "Neck Mass",
+          "index": 108
+        },
+        {
+          "id": "jaw_swelling",
+          "label": "Jaw Swelling",
+          "index": 110
+        },
+        {
+          "id": "neck_swelling",
+          "label": "Neck Swelling",
+          "index": 112
+        },
+        {
+          "id": "weight_gain",
+          "label": "Weight Gain",
+          "index": 123
+        },
+        {
+          "id": "leg_swelling",
+          "label": "Leg Swelling",
+          "index": 126
+        },
+        {
+          "id": "recent_weight_loss",
+          "label": "Recent Weight Loss",
+          "index": 132
+        },
+        {
+          "id": "underweight",
+          "label": "Underweight",
+          "index": 134
+        },
+        {
+          "id": "feeling_cold",
+          "label": "Feeling Cold",
+          "index": 157
+        },
+        {
+          "id": "fever",
+          "label": "Fever",
+          "index": 168
+        },
+        {
+          "id": "chills",
+          "label": "Chills",
+          "index": 196
+        },
+        {
+          "id": "lymphedema",
+          "label": "Lymphedema",
+          "index": 219
+        },
+        {
+          "id": "allergic_reaction",
+          "label": "Allergic Reaction",
+          "index": 221
+        },
+        {
+          "id": "feeling_hot_and_cold",
+          "label": "Feeling Hot And Cold",
+          "index": 232
+        },
+        {
+          "id": "back_mass_or_lump",
+          "label": "Back Mass Or Lump",
+          "index": 250
+        },
+        {
+          "id": "low_back_swelling",
+          "label": "Low Back Swelling",
+          "index": 282
+        },
+        {
+          "id": "feeling_hot",
+          "label": "Feeling Hot",
+          "index": 288
+        },
+        {
+          "id": "swollen_or_red_tonsils",
+          "label": "Swollen Or Red Tonsils",
+          "index": 301
+        },
+        {
+          "id": "leg_lump_or_mass",
+          "label": "Leg Lump Or Mass",
+          "index": 309
+        },
+        {
+          "id": "arm_lump_or_mass",
+          "label": "Arm Lump Or Mass",
+          "index": 337
+        },
+        {
+          "id": "mass_on_vulva",
+          "label": "Mass On Vulva",
+          "index": 346
+        },
+        {
+          "id": "lump_over_jaw",
+          "label": "Lump Over Jaw",
+          "index": 370
+        },
+        {
+          "id": "back_swelling",
+          "label": "Back Swelling",
+          "index": 373
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other / Miscellaneous",
+      "count": 16,
+      "symptoms": [
+        {
+          "id": "bleeding_or_discharge_from_nipple",
+          "label": "Bleeding Or Discharge From Nipple",
+          "index": 143
+        },
+        {
+          "id": "symptoms_of_the_face",
+          "label": "Symptoms Of The Face",
+          "index": 164
+        },
+        {
+          "id": "disturbance_of_smell_or_taste",
+          "label": "Disturbance Of Smell Or Taste",
+          "index": 310
+        },
+        {
+          "id": "loss_of_sex_drive",
+          "label": "Loss Of Sex Drive",
+          "index": 313
+        },
+        {
+          "id": "obsessions_and_compulsions",
+          "label": "Obsessions And Compulsions",
+          "index": 314
+        },
+        {
+          "id": "poor_circulation",
+          "label": "Poor Circulation",
+          "index": 318
+        },
+        {
+          "id": "thirst",
+          "label": "Thirst",
+          "index": 319
+        },
+        {
+          "id": "premature_ejaculation",
+          "label": "Premature Ejaculation",
+          "index": 325
+        },
+        {
+          "id": "posture_problems",
+          "label": "Posture Problems",
+          "index": 327
+        },
+        {
+          "id": "penile_discharge",
+          "label": "Penile Discharge",
+          "index": 332
+        },
+        {
+          "id": "polyuria",
+          "label": "Polyuria",
+          "index": 334
+        },
+        {
+          "id": "nightmares",
+          "label": "Nightmares",
+          "index": 338
+        },
+        {
+          "id": "bleeding_gums",
+          "label": "Bleeding Gums",
+          "index": 339
+        },
+        {
+          "id": "bedwetting",
+          "label": "Bedwetting",
+          "index": 341
+        },
+        {
+          "id": "hesitancy",
+          "label": "Hesitancy",
+          "index": 351
+        },
+        {
+          "id": "stuttering_or_stammering",
+          "label": "Stuttering Or Stammering",
+          "index": 367
+        }
+      ]
+    }
+  ],
+  "flat": [
+    {
+      "id": "anxiety_and_nervousness",
+      "label": "Anxiety And Nervousness",
+      "category": "mental_health",
+      "index": 0
+    },
+    {
+      "id": "depression",
+      "label": "Depression",
+      "category": "mental_health",
+      "index": 1
+    },
+    {
+      "id": "shortness_of_breath",
+      "label": "Shortness Of Breath",
+      "category": "respiratory",
+      "index": 2
+    },
+    {
+      "id": "depressive_or_psychotic_symptoms",
+      "label": "Depressive Or Psychotic Symptoms",
+      "category": "mental_health",
+      "index": 3
+    },
+    {
+      "id": "sharp_chest_pain",
+      "label": "Sharp Chest Pain",
+      "category": "respiratory",
+      "index": 4
+    },
+    {
+      "id": "dizziness",
+      "label": "Dizziness",
+      "category": "neurological",
+      "index": 5
+    },
+    {
+      "id": "insomnia",
+      "label": "Insomnia",
+      "category": "mental_health",
+      "index": 6
+    },
+    {
+      "id": "abnormal_involuntary_movements",
+      "label": "Abnormal Involuntary Movements",
+      "category": "neurological",
+      "index": 7
+    },
+    {
+      "id": "chest_tightness",
+      "label": "Chest Tightness",
+      "category": "respiratory",
+      "index": 8
+    },
+    {
+      "id": "palpitations",
+      "label": "Palpitations",
+      "category": "cardiovascular",
+      "index": 9
+    },
+    {
+      "id": "irregular_heartbeat",
+      "label": "Irregular Heartbeat",
+      "category": "ear",
+      "index": 10
+    },
+    {
+      "id": "breathing_fast",
+      "label": "Breathing Fast",
+      "category": "respiratory",
+      "index": 11
+    },
+    {
+      "id": "hoarse_voice",
+      "label": "Hoarse Voice",
+      "category": "throat_mouth",
+      "index": 12
+    },
+    {
+      "id": "sore_throat",
+      "label": "Sore Throat",
+      "category": "throat_mouth",
+      "index": 13
+    },
+    {
+      "id": "difficulty_speaking",
+      "label": "Difficulty Speaking",
+      "category": "throat_mouth",
+      "index": 14
+    },
+    {
+      "id": "cough",
+      "label": "Cough",
+      "category": "respiratory",
+      "index": 15
+    },
+    {
+      "id": "nasal_congestion",
+      "label": "Nasal Congestion",
+      "category": "throat_mouth",
+      "index": 16
+    },
+    {
+      "id": "throat_swelling",
+      "label": "Throat Swelling",
+      "category": "throat_mouth",
+      "index": 17
+    },
+    {
+      "id": "diminished_hearing",
+      "label": "Diminished Hearing",
+      "category": "ear",
+      "index": 18
+    },
+    {
+      "id": "lump_in_throat",
+      "label": "Lump In Throat",
+      "category": "throat_mouth",
+      "index": 19
+    },
+    {
+      "id": "throat_feels_tight",
+      "label": "Throat Feels Tight",
+      "category": "throat_mouth",
+      "index": 20
+    },
+    {
+      "id": "difficulty_in_swallowing",
+      "label": "Difficulty In Swallowing",
+      "category": "throat_mouth",
+      "index": 21
+    },
+    {
+      "id": "skin_swelling",
+      "label": "Skin Swelling",
+      "category": "skin",
+      "index": 22
+    },
+    {
+      "id": "retention_of_urine",
+      "label": "Retention Of Urine",
+      "category": "urinary",
+      "index": 23
+    },
+    {
+      "id": "groin_mass",
+      "label": "Groin Mass",
+      "category": "reproductive",
+      "index": 24
+    },
+    {
+      "id": "leg_pain",
+      "label": "Leg Pain",
+      "category": "musculoskeletal",
+      "index": 25
+    },
+    {
+      "id": "hip_pain",
+      "label": "Hip Pain",
+      "category": "musculoskeletal",
+      "index": 26
+    },
+    {
+      "id": "suprapubic_pain",
+      "label": "Suprapubic Pain",
+      "category": "pain_general",
+      "index": 27
+    },
+    {
+      "id": "blood_in_stool",
+      "label": "Blood In Stool",
+      "category": "digestive",
+      "index": 28
+    },
+    {
+      "id": "lack_of_growth",
+      "label": "Lack Of Growth",
+      "category": "pediatric",
+      "index": 29
+    },
+    {
+      "id": "emotional_symptoms",
+      "label": "Emotional Symptoms",
+      "category": "mental_health",
+      "index": 30
+    },
+    {
+      "id": "elbow_weakness",
+      "label": "Elbow Weakness",
+      "category": "musculoskeletal",
+      "index": 31
+    },
+    {
+      "id": "back_weakness",
+      "label": "Back Weakness",
+      "category": "musculoskeletal",
+      "index": 32
+    },
+    {
+      "id": "pus_in_sputum",
+      "label": "Pus In Sputum",
+      "category": "respiratory",
+      "index": 33
+    },
+    {
+      "id": "symptoms_of_the_scrotum_and_testes",
+      "label": "Symptoms Of The Scrotum And Testes",
+      "category": "reproductive",
+      "index": 34
+    },
+    {
+      "id": "swelling_of_scrotum",
+      "label": "Swelling Of Scrotum",
+      "category": "reproductive",
+      "index": 35
+    },
+    {
+      "id": "pain_in_testicles",
+      "label": "Pain In Testicles",
+      "category": "pain_general",
+      "index": 36
+    },
+    {
+      "id": "flatulence",
+      "label": "Flatulence",
+      "category": "digestive",
+      "index": 37
+    },
+    {
+      "id": "pus_draining_from_ear",
+      "label": "Pus Draining From Ear",
+      "category": "ear",
+      "index": 38
+    },
+    {
+      "id": "jaundice",
+      "label": "Jaundice",
+      "category": "skin",
+      "index": 39
+    },
+    {
+      "id": "mass_in_scrotum",
+      "label": "Mass In Scrotum",
+      "category": "reproductive",
+      "index": 40
+    },
+    {
+      "id": "white_discharge_from_eye",
+      "label": "White Discharge From Eye",
+      "category": "eye",
+      "index": 41
+    },
+    {
+      "id": "irritable_infant",
+      "label": "Irritable Infant",
+      "category": "mental_health",
+      "index": 42
+    },
+    {
+      "id": "abusing_alcohol",
+      "label": "Abusing Alcohol",
+      "category": "mental_health",
+      "index": 43
+    },
+    {
+      "id": "fainting",
+      "label": "Fainting",
+      "category": "neurological",
+      "index": 44
+    },
+    {
+      "id": "hostile_behavior",
+      "label": "Hostile Behavior",
+      "category": "mental_health",
+      "index": 45
+    },
+    {
+      "id": "drug_abuse",
+      "label": "Drug Abuse",
+      "category": "mental_health",
+      "index": 46
+    },
+    {
+      "id": "sharp_abdominal_pain",
+      "label": "Sharp Abdominal Pain",
+      "category": "digestive",
+      "index": 47
+    },
+    {
+      "id": "feeling_ill",
+      "label": "Feeling Ill",
+      "category": "systemic",
+      "index": 48
+    },
+    {
+      "id": "vomiting",
+      "label": "Vomiting",
+      "category": "digestive",
+      "index": 49
+    },
+    {
+      "id": "headache",
+      "label": "Headache",
+      "category": "neurological",
+      "index": 50
+    },
+    {
+      "id": "nausea",
+      "label": "Nausea",
+      "category": "digestive",
+      "index": 51
+    },
+    {
+      "id": "diarrhea",
+      "label": "Diarrhea",
+      "category": "digestive",
+      "index": 52
+    },
+    {
+      "id": "vaginal_itching",
+      "label": "Vaginal Itching",
+      "category": "skin",
+      "index": 53
+    },
+    {
+      "id": "vaginal_dryness",
+      "label": "Vaginal Dryness",
+      "category": "reproductive",
+      "index": 54
+    },
+    {
+      "id": "painful_urination",
+      "label": "Painful Urination",
+      "category": "pain_general",
+      "index": 55
+    },
+    {
+      "id": "involuntary_urination",
+      "label": "Involuntary Urination",
+      "category": "neurological",
+      "index": 56
+    },
+    {
+      "id": "pain_during_intercourse",
+      "label": "Pain During Intercourse",
+      "category": "pain_general",
+      "index": 57
+    },
+    {
+      "id": "frequent_urination",
+      "label": "Frequent Urination",
+      "category": "urinary",
+      "index": 58
+    },
+    {
+      "id": "lower_abdominal_pain",
+      "label": "Lower Abdominal Pain",
+      "category": "digestive",
+      "index": 59
+    },
+    {
+      "id": "vaginal_discharge",
+      "label": "Vaginal Discharge",
+      "category": "reproductive",
+      "index": 60
+    },
+    {
+      "id": "blood_in_urine",
+      "label": "Blood In Urine",
+      "category": "urinary",
+      "index": 61
+    },
+    {
+      "id": "hot_flashes",
+      "label": "Hot Flashes",
+      "category": "reproductive",
+      "index": 62
+    },
+    {
+      "id": "intermenstrual_bleeding",
+      "label": "Intermenstrual Bleeding",
+      "category": "reproductive",
+      "index": 63
+    },
+    {
+      "id": "hand_or_finger_pain",
+      "label": "Hand Or Finger Pain",
+      "category": "musculoskeletal",
+      "index": 64
+    },
+    {
+      "id": "wrist_pain",
+      "label": "Wrist Pain",
+      "category": "musculoskeletal",
+      "index": 65
+    },
+    {
+      "id": "hand_or_finger_swelling",
+      "label": "Hand Or Finger Swelling",
+      "category": "musculoskeletal",
+      "index": 66
+    },
+    {
+      "id": "arm_pain",
+      "label": "Arm Pain",
+      "category": "musculoskeletal",
+      "index": 67
+    },
+    {
+      "id": "wrist_swelling",
+      "label": "Wrist Swelling",
+      "category": "musculoskeletal",
+      "index": 68
+    },
+    {
+      "id": "arm_stiffness_or_tightness",
+      "label": "Arm Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 69
+    },
+    {
+      "id": "arm_swelling",
+      "label": "Arm Swelling",
+      "category": "musculoskeletal",
+      "index": 70
+    },
+    {
+      "id": "hand_or_finger_stiffness_or_tightness",
+      "label": "Hand Or Finger Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 71
+    },
+    {
+      "id": "wrist_stiffness_or_tightness",
+      "label": "Wrist Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 72
+    },
+    {
+      "id": "lip_swelling",
+      "label": "Lip Swelling",
+      "category": "throat_mouth",
+      "index": 73
+    },
+    {
+      "id": "toothache",
+      "label": "Toothache",
+      "category": "pain_general",
+      "index": 74
+    },
+    {
+      "id": "abnormal_appearing_skin",
+      "label": "Abnormal Appearing Skin",
+      "category": "skin",
+      "index": 75
+    },
+    {
+      "id": "skin_lesion",
+      "label": "Skin Lesion",
+      "category": "skin",
+      "index": 76
+    },
+    {
+      "id": "acne_or_pimples",
+      "label": "Acne Or Pimples",
+      "category": "skin",
+      "index": 77
+    },
+    {
+      "id": "dry_lips",
+      "label": "Dry Lips",
+      "category": "throat_mouth",
+      "index": 78
+    },
+    {
+      "id": "facial_pain",
+      "label": "Facial Pain",
+      "category": "pain_general",
+      "index": 79
+    },
+    {
+      "id": "mouth_ulcer",
+      "label": "Mouth Ulcer",
+      "category": "throat_mouth",
+      "index": 80
+    },
+    {
+      "id": "skin_growth",
+      "label": "Skin Growth",
+      "category": "skin",
+      "index": 81
+    },
+    {
+      "id": "eye_deviation",
+      "label": "Eye Deviation",
+      "category": "eye",
+      "index": 82
+    },
+    {
+      "id": "diminished_vision",
+      "label": "Diminished Vision",
+      "category": "eye",
+      "index": 83
+    },
+    {
+      "id": "double_vision",
+      "label": "Double Vision",
+      "category": "eye",
+      "index": 84
+    },
+    {
+      "id": "crosseyed",
+      "label": "Crosseyed",
+      "category": "eye",
+      "index": 85
+    },
+    {
+      "id": "symptoms_of_eye",
+      "label": "Symptoms Of Eye",
+      "category": "eye",
+      "index": 86
+    },
+    {
+      "id": "pain_in_eye",
+      "label": "Pain In Eye",
+      "category": "eye",
+      "index": 87
+    },
+    {
+      "id": "eye_moves_abnormally",
+      "label": "Eye Moves Abnormally",
+      "category": "eye",
+      "index": 88
+    },
+    {
+      "id": "abnormal_movement_of_eyelid",
+      "label": "Abnormal Movement Of Eyelid",
+      "category": "eye",
+      "index": 89
+    },
+    {
+      "id": "foreign_body_sensation_in_eye",
+      "label": "Foreign Body Sensation In Eye",
+      "category": "eye",
+      "index": 90
+    },
+    {
+      "id": "irregular_appearing_scalp",
+      "label": "Irregular Appearing Scalp",
+      "category": "ear",
+      "index": 91
+    },
+    {
+      "id": "swollen_lymph_nodes",
+      "label": "Swollen Lymph Nodes",
+      "category": "musculoskeletal",
+      "index": 92
+    },
+    {
+      "id": "back_pain",
+      "label": "Back Pain",
+      "category": "musculoskeletal",
+      "index": 93
+    },
+    {
+      "id": "neck_pain",
+      "label": "Neck Pain",
+      "category": "pain_general",
+      "index": 94
+    },
+    {
+      "id": "low_back_pain",
+      "label": "Low Back Pain",
+      "category": "musculoskeletal",
+      "index": 95
+    },
+    {
+      "id": "pain_of_the_anus",
+      "label": "Pain Of The Anus",
+      "category": "digestive",
+      "index": 96
+    },
+    {
+      "id": "pain_during_pregnancy",
+      "label": "Pain During Pregnancy",
+      "category": "pain_general",
+      "index": 97
+    },
+    {
+      "id": "pelvic_pain",
+      "label": "Pelvic Pain",
+      "category": "pain_general",
+      "index": 98
+    },
+    {
+      "id": "impotence",
+      "label": "Impotence",
+      "category": "reproductive",
+      "index": 99
+    },
+    {
+      "id": "infant_spitting_up",
+      "label": "Infant Spitting Up",
+      "category": "digestive",
+      "index": 100
+    },
+    {
+      "id": "vomiting_blood",
+      "label": "Vomiting Blood",
+      "category": "digestive",
+      "index": 101
+    },
+    {
+      "id": "regurgitation",
+      "label": "Regurgitation",
+      "category": "digestive",
+      "index": 102
+    },
+    {
+      "id": "burning_abdominal_pain",
+      "label": "Burning Abdominal Pain",
+      "category": "digestive",
+      "index": 103
+    },
+    {
+      "id": "restlessness",
+      "label": "Restlessness",
+      "category": "mental_health",
+      "index": 104
+    },
+    {
+      "id": "symptoms_of_infants",
+      "label": "Symptoms Of Infants",
+      "category": "pediatric",
+      "index": 105
+    },
+    {
+      "id": "wheezing",
+      "label": "Wheezing",
+      "category": "respiratory",
+      "index": 106
+    },
+    {
+      "id": "peripheral_edema",
+      "label": "Peripheral Edema",
+      "category": "systemic",
+      "index": 107
+    },
+    {
+      "id": "neck_mass",
+      "label": "Neck Mass",
+      "category": "systemic",
+      "index": 108
+    },
+    {
+      "id": "ear_pain",
+      "label": "Ear Pain",
+      "category": "ear",
+      "index": 109
+    },
+    {
+      "id": "jaw_swelling",
+      "label": "Jaw Swelling",
+      "category": "systemic",
+      "index": 110
+    },
+    {
+      "id": "mouth_dryness",
+      "label": "Mouth Dryness",
+      "category": "throat_mouth",
+      "index": 111
+    },
+    {
+      "id": "neck_swelling",
+      "label": "Neck Swelling",
+      "category": "systemic",
+      "index": 112
+    },
+    {
+      "id": "knee_pain",
+      "label": "Knee Pain",
+      "category": "musculoskeletal",
+      "index": 113
+    },
+    {
+      "id": "foot_or_toe_pain",
+      "label": "Foot Or Toe Pain",
+      "category": "musculoskeletal",
+      "index": 114
+    },
+    {
+      "id": "bowlegged_or_knockkneed",
+      "label": "Bowlegged Or Knockkneed",
+      "category": "musculoskeletal",
+      "index": 115
+    },
+    {
+      "id": "ankle_pain",
+      "label": "Ankle Pain",
+      "category": "musculoskeletal",
+      "index": 116
+    },
+    {
+      "id": "bones_are_painful",
+      "label": "Bones Are Painful",
+      "category": "pain_general",
+      "index": 117
+    },
+    {
+      "id": "knee_weakness",
+      "label": "Knee Weakness",
+      "category": "musculoskeletal",
+      "index": 118
+    },
+    {
+      "id": "elbow_pain",
+      "label": "Elbow Pain",
+      "category": "musculoskeletal",
+      "index": 119
+    },
+    {
+      "id": "knee_swelling",
+      "label": "Knee Swelling",
+      "category": "musculoskeletal",
+      "index": 120
+    },
+    {
+      "id": "skin_moles",
+      "label": "Skin Moles",
+      "category": "skin",
+      "index": 121
+    },
+    {
+      "id": "knee_lump_or_mass",
+      "label": "Knee Lump Or Mass",
+      "category": "musculoskeletal",
+      "index": 122
+    },
+    {
+      "id": "weight_gain",
+      "label": "Weight Gain",
+      "category": "systemic",
+      "index": 123
+    },
+    {
+      "id": "problems_with_movement",
+      "label": "Problems With Movement",
+      "category": "neurological",
+      "index": 124
+    },
+    {
+      "id": "knee_stiffness_or_tightness",
+      "label": "Knee Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 125
+    },
+    {
+      "id": "leg_swelling",
+      "label": "Leg Swelling",
+      "category": "systemic",
+      "index": 126
+    },
+    {
+      "id": "foot_or_toe_swelling",
+      "label": "Foot Or Toe Swelling",
+      "category": "musculoskeletal",
+      "index": 127
+    },
+    {
+      "id": "heartburn",
+      "label": "Heartburn",
+      "category": "ear",
+      "index": 128
+    },
+    {
+      "id": "smoking_problems",
+      "label": "Smoking Problems",
+      "category": "respiratory",
+      "index": 129
+    },
+    {
+      "id": "muscle_pain",
+      "label": "Muscle Pain",
+      "category": "musculoskeletal",
+      "index": 130
+    },
+    {
+      "id": "infant_feeding_problem",
+      "label": "Infant Feeding Problem",
+      "category": "pediatric",
+      "index": 131
+    },
+    {
+      "id": "recent_weight_loss",
+      "label": "Recent Weight Loss",
+      "category": "systemic",
+      "index": 132
+    },
+    {
+      "id": "problems_with_shape_or_size_of_breast",
+      "label": "Problems With Shape Or Size Of Breast",
+      "category": "reproductive",
+      "index": 133
+    },
+    {
+      "id": "underweight",
+      "label": "Underweight",
+      "category": "systemic",
+      "index": 134
+    },
+    {
+      "id": "difficulty_eating",
+      "label": "Difficulty Eating",
+      "category": "digestive",
+      "index": 135
+    },
+    {
+      "id": "scanty_menstrual_flow",
+      "label": "Scanty Menstrual Flow",
+      "category": "reproductive",
+      "index": 136
+    },
+    {
+      "id": "vaginal_pain",
+      "label": "Vaginal Pain",
+      "category": "pain_general",
+      "index": 137
+    },
+    {
+      "id": "vaginal_redness",
+      "label": "Vaginal Redness",
+      "category": "reproductive",
+      "index": 138
+    },
+    {
+      "id": "vulvar_irritation",
+      "label": "Vulvar Irritation",
+      "category": "reproductive",
+      "index": 139
+    },
+    {
+      "id": "weakness",
+      "label": "Weakness",
+      "category": "musculoskeletal",
+      "index": 140
+    },
+    {
+      "id": "decreased_heart_rate",
+      "label": "Decreased Heart Rate",
+      "category": "ear",
+      "index": 141
+    },
+    {
+      "id": "increased_heart_rate",
+      "label": "Increased Heart Rate",
+      "category": "ear",
+      "index": 142
+    },
+    {
+      "id": "bleeding_or_discharge_from_nipple",
+      "label": "Bleeding Or Discharge From Nipple",
+      "category": "other",
+      "index": 143
+    },
+    {
+      "id": "ringing_in_ear",
+      "label": "Ringing In Ear",
+      "category": "ear",
+      "index": 144
+    },
+    {
+      "id": "plugged_feeling_in_ear",
+      "label": "Plugged Feeling In Ear",
+      "category": "ear",
+      "index": 145
+    },
+    {
+      "id": "itchy_ears",
+      "label": "Itchy Ears",
+      "category": "skin",
+      "index": 146
+    },
+    {
+      "id": "frontal_headache",
+      "label": "Frontal Headache",
+      "category": "neurological",
+      "index": 147
+    },
+    {
+      "id": "fluid_in_ear",
+      "label": "Fluid In Ear",
+      "category": "ear",
+      "index": 148
+    },
+    {
+      "id": "neck_stiffness_or_tightness",
+      "label": "Neck Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 149
+    },
+    {
+      "id": "spots_or_clouds_in_vision",
+      "label": "Spots Or Clouds In Vision",
+      "category": "eye",
+      "index": 150
+    },
+    {
+      "id": "eye_redness",
+      "label": "Eye Redness",
+      "category": "eye",
+      "index": 151
+    },
+    {
+      "id": "lacrimation",
+      "label": "Lacrimation",
+      "category": "eye",
+      "index": 152
+    },
+    {
+      "id": "itchiness_of_eye",
+      "label": "Itchiness Of Eye",
+      "category": "skin",
+      "index": 153
+    },
+    {
+      "id": "blindness",
+      "label": "Blindness",
+      "category": "eye",
+      "index": 154
+    },
+    {
+      "id": "eye_burns_or_stings",
+      "label": "Eye Burns Or Stings",
+      "category": "eye",
+      "index": 155
+    },
+    {
+      "id": "itchy_eyelid",
+      "label": "Itchy Eyelid",
+      "category": "skin",
+      "index": 156
+    },
+    {
+      "id": "feeling_cold",
+      "label": "Feeling Cold",
+      "category": "systemic",
+      "index": 157
+    },
+    {
+      "id": "decreased_appetite",
+      "label": "Decreased Appetite",
+      "category": "digestive",
+      "index": 158
+    },
+    {
+      "id": "excessive_appetite",
+      "label": "Excessive Appetite",
+      "category": "digestive",
+      "index": 159
+    },
+    {
+      "id": "excessive_anger",
+      "label": "Excessive Anger",
+      "category": "mental_health",
+      "index": 160
+    },
+    {
+      "id": "loss_of_sensation",
+      "label": "Loss Of Sensation",
+      "category": "neurological",
+      "index": 161
+    },
+    {
+      "id": "focal_weakness",
+      "label": "Focal Weakness",
+      "category": "musculoskeletal",
+      "index": 162
+    },
+    {
+      "id": "slurring_words",
+      "label": "Slurring Words",
+      "category": "neurological",
+      "index": 163
+    },
+    {
+      "id": "symptoms_of_the_face",
+      "label": "Symptoms Of The Face",
+      "category": "other",
+      "index": 164
+    },
+    {
+      "id": "disturbance_of_memory",
+      "label": "Disturbance Of Memory",
+      "category": "neurological",
+      "index": 165
+    },
+    {
+      "id": "paresthesia",
+      "label": "Paresthesia",
+      "category": "neurological",
+      "index": 166
+    },
+    {
+      "id": "side_pain",
+      "label": "Side Pain",
+      "category": "pain_general",
+      "index": 167
+    },
+    {
+      "id": "fever",
+      "label": "Fever",
+      "category": "systemic",
+      "index": 168
+    },
+    {
+      "id": "shoulder_pain",
+      "label": "Shoulder Pain",
+      "category": "musculoskeletal",
+      "index": 169
+    },
+    {
+      "id": "shoulder_stiffness_or_tightness",
+      "label": "Shoulder Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 170
+    },
+    {
+      "id": "shoulder_weakness",
+      "label": "Shoulder Weakness",
+      "category": "musculoskeletal",
+      "index": 171
+    },
+    {
+      "id": "arm_cramps_or_spasms",
+      "label": "Arm Cramps Or Spasms",
+      "category": "neurological",
+      "index": 172
+    },
+    {
+      "id": "shoulder_swelling",
+      "label": "Shoulder Swelling",
+      "category": "musculoskeletal",
+      "index": 173
+    },
+    {
+      "id": "tongue_lesions",
+      "label": "Tongue Lesions",
+      "category": "skin",
+      "index": 174
+    },
+    {
+      "id": "leg_cramps_or_spasms",
+      "label": "Leg Cramps Or Spasms",
+      "category": "neurological",
+      "index": 175
+    },
+    {
+      "id": "abnormal_appearing_tongue",
+      "label": "Abnormal Appearing Tongue",
+      "category": "ear",
+      "index": 176
+    },
+    {
+      "id": "ache_all_over",
+      "label": "Ache All Over",
+      "category": "pain_general",
+      "index": 177
+    },
+    {
+      "id": "lower_body_pain",
+      "label": "Lower Body Pain",
+      "category": "pain_general",
+      "index": 178
+    },
+    {
+      "id": "problems_during_pregnancy",
+      "label": "Problems During Pregnancy",
+      "category": "reproductive",
+      "index": 179
+    },
+    {
+      "id": "spotting_or_bleeding_during_pregnancy",
+      "label": "Spotting Or Bleeding During Pregnancy",
+      "category": "reproductive",
+      "index": 180
+    },
+    {
+      "id": "cramps_and_spasms",
+      "label": "Cramps And Spasms",
+      "category": "neurological",
+      "index": 181
+    },
+    {
+      "id": "upper_abdominal_pain",
+      "label": "Upper Abdominal Pain",
+      "category": "digestive",
+      "index": 182
+    },
+    {
+      "id": "stomach_bloating",
+      "label": "Stomach Bloating",
+      "category": "digestive",
+      "index": 183
+    },
+    {
+      "id": "changes_in_stool_appearance",
+      "label": "Changes In Stool Appearance",
+      "category": "ear",
+      "index": 184
+    },
+    {
+      "id": "unusual_color_or_odor_to_urine",
+      "label": "Unusual Color Or Odor To Urine",
+      "category": "urinary",
+      "index": 185
+    },
+    {
+      "id": "kidney_mass",
+      "label": "Kidney Mass",
+      "category": "urinary",
+      "index": 186
+    },
+    {
+      "id": "swollen_abdomen",
+      "label": "Swollen Abdomen",
+      "category": "digestive",
+      "index": 187
+    },
+    {
+      "id": "symptoms_of_prostate",
+      "label": "Symptoms Of Prostate",
+      "category": "reproductive",
+      "index": 188
+    },
+    {
+      "id": "leg_stiffness_or_tightness",
+      "label": "Leg Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 189
+    },
+    {
+      "id": "difficulty_breathing",
+      "label": "Difficulty Breathing",
+      "category": "respiratory",
+      "index": 190
+    },
+    {
+      "id": "rib_pain",
+      "label": "Rib Pain",
+      "category": "pain_general",
+      "index": 191
+    },
+    {
+      "id": "joint_pain",
+      "label": "Joint Pain",
+      "category": "musculoskeletal",
+      "index": 192
+    },
+    {
+      "id": "muscle_stiffness_or_tightness",
+      "label": "Muscle Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 193
+    },
+    {
+      "id": "pallor",
+      "label": "Pallor",
+      "category": "skin",
+      "index": 194
+    },
+    {
+      "id": "hand_or_finger_lump_or_mass",
+      "label": "Hand Or Finger Lump Or Mass",
+      "category": "musculoskeletal",
+      "index": 195
+    },
+    {
+      "id": "chills",
+      "label": "Chills",
+      "category": "systemic",
+      "index": 196
+    },
+    {
+      "id": "groin_pain",
+      "label": "Groin Pain",
+      "category": "pain_general",
+      "index": 197
+    },
+    {
+      "id": "fatigue",
+      "label": "Fatigue",
+      "category": "musculoskeletal",
+      "index": 198
+    },
+    {
+      "id": "abdominal_distention",
+      "label": "Abdominal Distention",
+      "category": "digestive",
+      "index": 199
+    },
+    {
+      "id": "regurgitation1",
+      "label": "Regurgitation1",
+      "category": "digestive",
+      "index": 200
+    },
+    {
+      "id": "symptoms_of_the_kidneys",
+      "label": "Symptoms Of The Kidneys",
+      "category": "urinary",
+      "index": 201
+    },
+    {
+      "id": "melena",
+      "label": "Melena",
+      "category": "digestive",
+      "index": 202
+    },
+    {
+      "id": "flushing",
+      "label": "Flushing",
+      "category": "skin",
+      "index": 203
+    },
+    {
+      "id": "coughing_up_sputum",
+      "label": "Coughing Up Sputum",
+      "category": "respiratory",
+      "index": 204
+    },
+    {
+      "id": "seizures",
+      "label": "Seizures",
+      "category": "neurological",
+      "index": 205
+    },
+    {
+      "id": "delusions_or_hallucinations",
+      "label": "Delusions Or Hallucinations",
+      "category": "mental_health",
+      "index": 206
+    },
+    {
+      "id": "shoulder_cramps_or_spasms",
+      "label": "Shoulder Cramps Or Spasms",
+      "category": "neurological",
+      "index": 207
+    },
+    {
+      "id": "joint_stiffness_or_tightness",
+      "label": "Joint Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 208
+    },
+    {
+      "id": "pain_or_soreness_of_breast",
+      "label": "Pain Or Soreness Of Breast",
+      "category": "pain_general",
+      "index": 209
+    },
+    {
+      "id": "excessive_urination_at_night",
+      "label": "Excessive Urination At Night",
+      "category": "urinary",
+      "index": 210
+    },
+    {
+      "id": "bleeding_from_eye",
+      "label": "Bleeding From Eye",
+      "category": "eye",
+      "index": 211
+    },
+    {
+      "id": "rectal_bleeding",
+      "label": "Rectal Bleeding",
+      "category": "digestive",
+      "index": 212
+    },
+    {
+      "id": "constipation",
+      "label": "Constipation",
+      "category": "digestive",
+      "index": 213
+    },
+    {
+      "id": "temper_problems",
+      "label": "Temper Problems",
+      "category": "mental_health",
+      "index": 214
+    },
+    {
+      "id": "coryza",
+      "label": "Coryza",
+      "category": "throat_mouth",
+      "index": 215
+    },
+    {
+      "id": "wrist_weakness",
+      "label": "Wrist Weakness",
+      "category": "musculoskeletal",
+      "index": 216
+    },
+    {
+      "id": "eye_strain",
+      "label": "Eye Strain",
+      "category": "eye",
+      "index": 217
+    },
+    {
+      "id": "hemoptysis",
+      "label": "Hemoptysis",
+      "category": "respiratory",
+      "index": 218
+    },
+    {
+      "id": "lymphedema",
+      "label": "Lymphedema",
+      "category": "systemic",
+      "index": 219
+    },
+    {
+      "id": "skin_on_leg_or_foot_looks_infected",
+      "label": "Skin On Leg Or Foot Looks Infected",
+      "category": "skin",
+      "index": 220
+    },
+    {
+      "id": "allergic_reaction",
+      "label": "Allergic Reaction",
+      "category": "systemic",
+      "index": 221
+    },
+    {
+      "id": "congestion_in_chest",
+      "label": "Congestion In Chest",
+      "category": "throat_mouth",
+      "index": 222
+    },
+    {
+      "id": "muscle_swelling",
+      "label": "Muscle Swelling",
+      "category": "musculoskeletal",
+      "index": 223
+    },
+    {
+      "id": "pus_in_urine",
+      "label": "Pus In Urine",
+      "category": "urinary",
+      "index": 224
+    },
+    {
+      "id": "abnormal_size_or_shape_of_ear",
+      "label": "Abnormal Size Or Shape Of Ear",
+      "category": "ear",
+      "index": 225
+    },
+    {
+      "id": "low_back_weakness",
+      "label": "Low Back Weakness",
+      "category": "musculoskeletal",
+      "index": 226
+    },
+    {
+      "id": "sleepiness",
+      "label": "Sleepiness",
+      "category": "mental_health",
+      "index": 227
+    },
+    {
+      "id": "apnea",
+      "label": "Apnea",
+      "category": "respiratory",
+      "index": 228
+    },
+    {
+      "id": "abnormal_breathing_sounds",
+      "label": "Abnormal Breathing Sounds",
+      "category": "respiratory",
+      "index": 229
+    },
+    {
+      "id": "excessive_growth",
+      "label": "Excessive Growth",
+      "category": "pediatric",
+      "index": 230
+    },
+    {
+      "id": "elbow_cramps_or_spasms",
+      "label": "Elbow Cramps Or Spasms",
+      "category": "neurological",
+      "index": 231
+    },
+    {
+      "id": "feeling_hot_and_cold",
+      "label": "Feeling Hot And Cold",
+      "category": "systemic",
+      "index": 232
+    },
+    {
+      "id": "blood_clots_during_menstrual_periods",
+      "label": "Blood Clots During Menstrual Periods",
+      "category": "reproductive",
+      "index": 233
+    },
+    {
+      "id": "absence_of_menstruation",
+      "label": "Absence Of Menstruation",
+      "category": "reproductive",
+      "index": 234
+    },
+    {
+      "id": "pulling_at_ears",
+      "label": "Pulling At Ears",
+      "category": "ear",
+      "index": 235
+    },
+    {
+      "id": "gum_pain",
+      "label": "Gum Pain",
+      "category": "pain_general",
+      "index": 236
+    },
+    {
+      "id": "redness_in_ear",
+      "label": "Redness In Ear",
+      "category": "ear",
+      "index": 237
+    },
+    {
+      "id": "fluid_retention",
+      "label": "Fluid Retention",
+      "category": "respiratory",
+      "index": 238
+    },
+    {
+      "id": "flulike_syndrome",
+      "label": "Flulike Syndrome",
+      "category": "respiratory",
+      "index": 239
+    },
+    {
+      "id": "sinus_congestion",
+      "label": "Sinus Congestion",
+      "category": "throat_mouth",
+      "index": 240
+    },
+    {
+      "id": "painful_sinuses",
+      "label": "Painful Sinuses",
+      "category": "pain_general",
+      "index": 241
+    },
+    {
+      "id": "fears_and_phobias",
+      "label": "Fears And Phobias",
+      "category": "ear",
+      "index": 242
+    },
+    {
+      "id": "recent_pregnancy",
+      "label": "Recent Pregnancy",
+      "category": "reproductive",
+      "index": 243
+    },
+    {
+      "id": "uterine_contractions",
+      "label": "Uterine Contractions",
+      "category": "reproductive",
+      "index": 244
+    },
+    {
+      "id": "burning_chest_pain",
+      "label": "Burning Chest Pain",
+      "category": "respiratory",
+      "index": 245
+    },
+    {
+      "id": "back_cramps_or_spasms",
+      "label": "Back Cramps Or Spasms",
+      "category": "neurological",
+      "index": 246
+    },
+    {
+      "id": "stiffness_all_over",
+      "label": "Stiffness All Over",
+      "category": "neurological",
+      "index": 247
+    },
+    {
+      "id": "muscle_cramps_contractures_or_spasms",
+      "label": "Muscle Cramps Contractures Or Spasms",
+      "category": "neurological",
+      "index": 248
+    },
+    {
+      "id": "low_back_cramps_or_spasms",
+      "label": "Low Back Cramps Or Spasms",
+      "category": "neurological",
+      "index": 249
+    },
+    {
+      "id": "back_mass_or_lump",
+      "label": "Back Mass Or Lump",
+      "category": "systemic",
+      "index": 250
+    },
+    {
+      "id": "nosebleed",
+      "label": "Nosebleed",
+      "category": "throat_mouth",
+      "index": 251
+    },
+    {
+      "id": "long_menstrual_periods",
+      "label": "Long Menstrual Periods",
+      "category": "reproductive",
+      "index": 252
+    },
+    {
+      "id": "heavy_menstrual_flow",
+      "label": "Heavy Menstrual Flow",
+      "category": "reproductive",
+      "index": 253
+    },
+    {
+      "id": "unpredictable_menstruation",
+      "label": "Unpredictable Menstruation",
+      "category": "reproductive",
+      "index": 254
+    },
+    {
+      "id": "painful_menstruation",
+      "label": "Painful Menstruation",
+      "category": "pain_general",
+      "index": 255
+    },
+    {
+      "id": "infertility",
+      "label": "Infertility",
+      "category": "reproductive",
+      "index": 256
+    },
+    {
+      "id": "frequent_menstruation",
+      "label": "Frequent Menstruation",
+      "category": "reproductive",
+      "index": 257
+    },
+    {
+      "id": "sweating",
+      "label": "Sweating",
+      "category": "skin",
+      "index": 258
+    },
+    {
+      "id": "mass_on_eyelid",
+      "label": "Mass On Eyelid",
+      "category": "eye",
+      "index": 259
+    },
+    {
+      "id": "swollen_eye",
+      "label": "Swollen Eye",
+      "category": "eye",
+      "index": 260
+    },
+    {
+      "id": "eyelid_swelling",
+      "label": "Eyelid Swelling",
+      "category": "eye",
+      "index": 261
+    },
+    {
+      "id": "eyelid_lesion_or_rash",
+      "label": "Eyelid Lesion Or Rash",
+      "category": "skin",
+      "index": 262
+    },
+    {
+      "id": "unwanted_hair",
+      "label": "Unwanted Hair",
+      "category": "skin",
+      "index": 263
+    },
+    {
+      "id": "symptoms_of_bladder",
+      "label": "Symptoms Of Bladder",
+      "category": "urinary",
+      "index": 264
+    },
+    {
+      "id": "irregular_appearing_nails",
+      "label": "Irregular Appearing Nails",
+      "category": "skin",
+      "index": 265
+    },
+    {
+      "id": "itching_of_skin",
+      "label": "Itching Of Skin",
+      "category": "skin",
+      "index": 266
+    },
+    {
+      "id": "hurts_to_breath",
+      "label": "Hurts To Breath",
+      "category": "respiratory",
+      "index": 267
+    },
+    {
+      "id": "nailbiting",
+      "label": "Nailbiting",
+      "category": "skin",
+      "index": 268
+    },
+    {
+      "id": "skin_dryness_peeling_scaliness_or_roughness",
+      "label": "Skin Dryness Peeling Scaliness Or Roughness",
+      "category": "skin",
+      "index": 269
+    },
+    {
+      "id": "skin_on_arm_or_hand_looks_infected",
+      "label": "Skin On Arm Or Hand Looks Infected",
+      "category": "skin",
+      "index": 270
+    },
+    {
+      "id": "skin_irritation",
+      "label": "Skin Irritation",
+      "category": "skin",
+      "index": 271
+    },
+    {
+      "id": "itchy_scalp",
+      "label": "Itchy Scalp",
+      "category": "skin",
+      "index": 272
+    },
+    {
+      "id": "hip_swelling",
+      "label": "Hip Swelling",
+      "category": "musculoskeletal",
+      "index": 273
+    },
+    {
+      "id": "incontinence_of_stool",
+      "label": "Incontinence Of Stool",
+      "category": "digestive",
+      "index": 274
+    },
+    {
+      "id": "foot_or_toe_cramps_or_spasms",
+      "label": "Foot Or Toe Cramps Or Spasms",
+      "category": "neurological",
+      "index": 275
+    },
+    {
+      "id": "warts",
+      "label": "Warts",
+      "category": "skin",
+      "index": 276
+    },
+    {
+      "id": "bumps_on_penis",
+      "label": "Bumps On Penis",
+      "category": "skin",
+      "index": 277
+    },
+    {
+      "id": "too_little_hair",
+      "label": "Too Little Hair",
+      "category": "skin",
+      "index": 278
+    },
+    {
+      "id": "foot_or_toe_lump_or_mass",
+      "label": "Foot Or Toe Lump Or Mass",
+      "category": "musculoskeletal",
+      "index": 279
+    },
+    {
+      "id": "skin_rash",
+      "label": "Skin Rash",
+      "category": "skin",
+      "index": 280
+    },
+    {
+      "id": "mass_or_swelling_around_the_anus",
+      "label": "Mass Or Swelling Around The Anus",
+      "category": "digestive",
+      "index": 281
+    },
+    {
+      "id": "low_back_swelling",
+      "label": "Low Back Swelling",
+      "category": "systemic",
+      "index": 282
+    },
+    {
+      "id": "ankle_swelling",
+      "label": "Ankle Swelling",
+      "category": "musculoskeletal",
+      "index": 283
+    },
+    {
+      "id": "hip_lump_or_mass",
+      "label": "Hip Lump Or Mass",
+      "category": "musculoskeletal",
+      "index": 284
+    },
+    {
+      "id": "drainage_in_throat",
+      "label": "Drainage In Throat",
+      "category": "throat_mouth",
+      "index": 285
+    },
+    {
+      "id": "dry_or_flaky_scalp",
+      "label": "Dry Or Flaky Scalp",
+      "category": "skin",
+      "index": 286
+    },
+    {
+      "id": "premenstrual_tension_or_irritability",
+      "label": "Premenstrual Tension Or Irritability",
+      "category": "mental_health",
+      "index": 287
+    },
+    {
+      "id": "feeling_hot",
+      "label": "Feeling Hot",
+      "category": "systemic",
+      "index": 288
+    },
+    {
+      "id": "feet_turned_in",
+      "label": "Feet Turned In",
+      "category": "pediatric",
+      "index": 289
+    },
+    {
+      "id": "foot_or_toe_stiffness_or_tightness",
+      "label": "Foot Or Toe Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 290
+    },
+    {
+      "id": "pelvic_pressure",
+      "label": "Pelvic Pressure",
+      "category": "reproductive",
+      "index": 291
+    },
+    {
+      "id": "elbow_swelling",
+      "label": "Elbow Swelling",
+      "category": "musculoskeletal",
+      "index": 292
+    },
+    {
+      "id": "elbow_stiffness_or_tightness",
+      "label": "Elbow Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 293
+    },
+    {
+      "id": "early_or_late_onset_of_menopause",
+      "label": "Early Or Late Onset Of Menopause",
+      "category": "ear",
+      "index": 294
+    },
+    {
+      "id": "mass_on_ear",
+      "label": "Mass On Ear",
+      "category": "ear",
+      "index": 295
+    },
+    {
+      "id": "bleeding_from_ear",
+      "label": "Bleeding From Ear",
+      "category": "ear",
+      "index": 296
+    },
+    {
+      "id": "hand_or_finger_weakness",
+      "label": "Hand Or Finger Weakness",
+      "category": "musculoskeletal",
+      "index": 297
+    },
+    {
+      "id": "low_selfesteem",
+      "label": "Low Selfesteem",
+      "category": "mental_health",
+      "index": 298
+    },
+    {
+      "id": "throat_irritation",
+      "label": "Throat Irritation",
+      "category": "throat_mouth",
+      "index": 299
+    },
+    {
+      "id": "itching_of_the_anus",
+      "label": "Itching Of The Anus",
+      "category": "skin",
+      "index": 300
+    },
+    {
+      "id": "swollen_or_red_tonsils",
+      "label": "Swollen Or Red Tonsils",
+      "category": "systemic",
+      "index": 301
+    },
+    {
+      "id": "irregular_belly_button",
+      "label": "Irregular Belly Button",
+      "category": "pediatric",
+      "index": 302
+    },
+    {
+      "id": "swollen_tongue",
+      "label": "Swollen Tongue",
+      "category": "throat_mouth",
+      "index": 303
+    },
+    {
+      "id": "lip_sore",
+      "label": "Lip Sore",
+      "category": "throat_mouth",
+      "index": 304
+    },
+    {
+      "id": "vulvar_sore",
+      "label": "Vulvar Sore",
+      "category": "reproductive",
+      "index": 305
+    },
+    {
+      "id": "hip_stiffness_or_tightness",
+      "label": "Hip Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 306
+    },
+    {
+      "id": "mouth_pain",
+      "label": "Mouth Pain",
+      "category": "throat_mouth",
+      "index": 307
+    },
+    {
+      "id": "arm_weakness",
+      "label": "Arm Weakness",
+      "category": "musculoskeletal",
+      "index": 308
+    },
+    {
+      "id": "leg_lump_or_mass",
+      "label": "Leg Lump Or Mass",
+      "category": "systemic",
+      "index": 309
+    },
+    {
+      "id": "disturbance_of_smell_or_taste",
+      "label": "Disturbance Of Smell Or Taste",
+      "category": "other",
+      "index": 310
+    },
+    {
+      "id": "discharge_in_stools",
+      "label": "Discharge In Stools",
+      "category": "digestive",
+      "index": 311
+    },
+    {
+      "id": "penis_pain",
+      "label": "Penis Pain",
+      "category": "pain_general",
+      "index": 312
+    },
+    {
+      "id": "loss_of_sex_drive",
+      "label": "Loss Of Sex Drive",
+      "category": "other",
+      "index": 313
+    },
+    {
+      "id": "obsessions_and_compulsions",
+      "label": "Obsessions And Compulsions",
+      "category": "other",
+      "index": 314
+    },
+    {
+      "id": "antisocial_behavior",
+      "label": "Antisocial Behavior",
+      "category": "mental_health",
+      "index": 315
+    },
+    {
+      "id": "neck_cramps_or_spasms",
+      "label": "Neck Cramps Or Spasms",
+      "category": "neurological",
+      "index": 316
+    },
+    {
+      "id": "pupils_unequal",
+      "label": "Pupils Unequal",
+      "category": "eye",
+      "index": 317
+    },
+    {
+      "id": "poor_circulation",
+      "label": "Poor Circulation",
+      "category": "other",
+      "index": 318
+    },
+    {
+      "id": "thirst",
+      "label": "Thirst",
+      "category": "other",
+      "index": 319
+    },
+    {
+      "id": "sleepwalking",
+      "label": "Sleepwalking",
+      "category": "mental_health",
+      "index": 320
+    },
+    {
+      "id": "skin_oiliness",
+      "label": "Skin Oiliness",
+      "category": "skin",
+      "index": 321
+    },
+    {
+      "id": "sneezing",
+      "label": "Sneezing",
+      "category": "throat_mouth",
+      "index": 322
+    },
+    {
+      "id": "bladder_mass",
+      "label": "Bladder Mass",
+      "category": "urinary",
+      "index": 323
+    },
+    {
+      "id": "knee_cramps_or_spasms",
+      "label": "Knee Cramps Or Spasms",
+      "category": "neurological",
+      "index": 324
+    },
+    {
+      "id": "premature_ejaculation",
+      "label": "Premature Ejaculation",
+      "category": "other",
+      "index": 325
+    },
+    {
+      "id": "leg_weakness",
+      "label": "Leg Weakness",
+      "category": "musculoskeletal",
+      "index": 326
+    },
+    {
+      "id": "posture_problems",
+      "label": "Posture Problems",
+      "category": "other",
+      "index": 327
+    },
+    {
+      "id": "bleeding_in_mouth",
+      "label": "Bleeding In Mouth",
+      "category": "throat_mouth",
+      "index": 328
+    },
+    {
+      "id": "tongue_bleeding",
+      "label": "Tongue Bleeding",
+      "category": "throat_mouth",
+      "index": 329
+    },
+    {
+      "id": "change_in_skin_mole_size_or_color",
+      "label": "Change In Skin Mole Size Or Color",
+      "category": "skin",
+      "index": 330
+    },
+    {
+      "id": "penis_redness",
+      "label": "Penis Redness",
+      "category": "reproductive",
+      "index": 331
+    },
+    {
+      "id": "penile_discharge",
+      "label": "Penile Discharge",
+      "category": "other",
+      "index": 332
+    },
+    {
+      "id": "shoulder_lump_or_mass",
+      "label": "Shoulder Lump Or Mass",
+      "category": "musculoskeletal",
+      "index": 333
+    },
+    {
+      "id": "polyuria",
+      "label": "Polyuria",
+      "category": "other",
+      "index": 334
+    },
+    {
+      "id": "cloudy_eye",
+      "label": "Cloudy Eye",
+      "category": "eye",
+      "index": 335
+    },
+    {
+      "id": "hysterical_behavior",
+      "label": "Hysterical Behavior",
+      "category": "mental_health",
+      "index": 336
+    },
+    {
+      "id": "arm_lump_or_mass",
+      "label": "Arm Lump Or Mass",
+      "category": "systemic",
+      "index": 337
+    },
+    {
+      "id": "nightmares",
+      "label": "Nightmares",
+      "category": "other",
+      "index": 338
+    },
+    {
+      "id": "bleeding_gums",
+      "label": "Bleeding Gums",
+      "category": "other",
+      "index": 339
+    },
+    {
+      "id": "pain_in_gums",
+      "label": "Pain In Gums",
+      "category": "pain_general",
+      "index": 340
+    },
+    {
+      "id": "bedwetting",
+      "label": "Bedwetting",
+      "category": "other",
+      "index": 341
+    },
+    {
+      "id": "diaper_rash",
+      "label": "Diaper Rash",
+      "category": "skin",
+      "index": 342
+    },
+    {
+      "id": "lump_or_mass_of_breast",
+      "label": "Lump Or Mass Of Breast",
+      "category": "reproductive",
+      "index": 343
+    },
+    {
+      "id": "vaginal_bleeding_after_menopause",
+      "label": "Vaginal Bleeding After Menopause",
+      "category": "reproductive",
+      "index": 344
+    },
+    {
+      "id": "infrequent_menstruation",
+      "label": "Infrequent Menstruation",
+      "category": "reproductive",
+      "index": 345
+    },
+    {
+      "id": "mass_on_vulva",
+      "label": "Mass On Vulva",
+      "category": "systemic",
+      "index": 346
+    },
+    {
+      "id": "jaw_pain",
+      "label": "Jaw Pain",
+      "category": "pain_general",
+      "index": 347
+    },
+    {
+      "id": "itching_of_scrotum",
+      "label": "Itching Of Scrotum",
+      "category": "skin",
+      "index": 348
+    },
+    {
+      "id": "postpartum_problems_of_the_breast",
+      "label": "Postpartum Problems Of The Breast",
+      "category": "reproductive",
+      "index": 349
+    },
+    {
+      "id": "eyelid_retracted",
+      "label": "Eyelid Retracted",
+      "category": "eye",
+      "index": 350
+    },
+    {
+      "id": "hesitancy",
+      "label": "Hesitancy",
+      "category": "other",
+      "index": 351
+    },
+    {
+      "id": "elbow_lump_or_mass",
+      "label": "Elbow Lump Or Mass",
+      "category": "musculoskeletal",
+      "index": 352
+    },
+    {
+      "id": "muscle_weakness",
+      "label": "Muscle Weakness",
+      "category": "musculoskeletal",
+      "index": 353
+    },
+    {
+      "id": "throat_redness",
+      "label": "Throat Redness",
+      "category": "throat_mouth",
+      "index": 354
+    },
+    {
+      "id": "joint_swelling",
+      "label": "Joint Swelling",
+      "category": "musculoskeletal",
+      "index": 355
+    },
+    {
+      "id": "tongue_pain",
+      "label": "Tongue Pain",
+      "category": "throat_mouth",
+      "index": 356
+    },
+    {
+      "id": "redness_in_or_around_nose",
+      "label": "Redness In Or Around Nose",
+      "category": "throat_mouth",
+      "index": 357
+    },
+    {
+      "id": "wrinkles_on_skin",
+      "label": "Wrinkles On Skin",
+      "category": "skin",
+      "index": 358
+    },
+    {
+      "id": "foot_or_toe_weakness",
+      "label": "Foot Or Toe Weakness",
+      "category": "musculoskeletal",
+      "index": 359
+    },
+    {
+      "id": "hand_or_finger_cramps_or_spasms",
+      "label": "Hand Or Finger Cramps Or Spasms",
+      "category": "neurological",
+      "index": 360
+    },
+    {
+      "id": "back_stiffness_or_tightness",
+      "label": "Back Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 361
+    },
+    {
+      "id": "wrist_lump_or_mass",
+      "label": "Wrist Lump Or Mass",
+      "category": "musculoskeletal",
+      "index": 362
+    },
+    {
+      "id": "skin_pain",
+      "label": "Skin Pain",
+      "category": "skin",
+      "index": 363
+    },
+    {
+      "id": "low_back_stiffness_or_tightness",
+      "label": "Low Back Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 364
+    },
+    {
+      "id": "low_urine_output",
+      "label": "Low Urine Output",
+      "category": "urinary",
+      "index": 365
+    },
+    {
+      "id": "skin_on_head_or_neck_looks_infected",
+      "label": "Skin On Head Or Neck Looks Infected",
+      "category": "skin",
+      "index": 366
+    },
+    {
+      "id": "stuttering_or_stammering",
+      "label": "Stuttering Or Stammering",
+      "category": "other",
+      "index": 367
+    },
+    {
+      "id": "problems_with_orgasm",
+      "label": "Problems With Orgasm",
+      "category": "digestive",
+      "index": 368
+    },
+    {
+      "id": "nose_deformity",
+      "label": "Nose Deformity",
+      "category": "throat_mouth",
+      "index": 369
+    },
+    {
+      "id": "lump_over_jaw",
+      "label": "Lump Over Jaw",
+      "category": "systemic",
+      "index": 370
+    },
+    {
+      "id": "sore_in_nose",
+      "label": "Sore In Nose",
+      "category": "throat_mouth",
+      "index": 371
+    },
+    {
+      "id": "hip_weakness",
+      "label": "Hip Weakness",
+      "category": "musculoskeletal",
+      "index": 372
+    },
+    {
+      "id": "back_swelling",
+      "label": "Back Swelling",
+      "category": "systemic",
+      "index": 373
+    },
+    {
+      "id": "ankle_stiffness_or_tightness",
+      "label": "Ankle Stiffness Or Tightness",
+      "category": "musculoskeletal",
+      "index": 374
+    },
+    {
+      "id": "ankle_weakness",
+      "label": "Ankle Weakness",
+      "category": "musculoskeletal",
+      "index": 375
+    },
+    {
+      "id": "neck_weakness",
+      "label": "Neck Weakness",
+      "category": "musculoskeletal",
+      "index": 376
+    }
+  ],
+  "id_to_index": {
+    "anxiety_and_nervousness": 0,
+    "depression": 1,
+    "shortness_of_breath": 2,
+    "depressive_or_psychotic_symptoms": 3,
+    "sharp_chest_pain": 4,
+    "dizziness": 5,
+    "insomnia": 6,
+    "abnormal_involuntary_movements": 7,
+    "chest_tightness": 8,
+    "palpitations": 9,
+    "irregular_heartbeat": 10,
+    "breathing_fast": 11,
+    "hoarse_voice": 12,
+    "sore_throat": 13,
+    "difficulty_speaking": 14,
+    "cough": 15,
+    "nasal_congestion": 16,
+    "throat_swelling": 17,
+    "diminished_hearing": 18,
+    "lump_in_throat": 19,
+    "throat_feels_tight": 20,
+    "difficulty_in_swallowing": 21,
+    "skin_swelling": 22,
+    "retention_of_urine": 23,
+    "groin_mass": 24,
+    "leg_pain": 25,
+    "hip_pain": 26,
+    "suprapubic_pain": 27,
+    "blood_in_stool": 28,
+    "lack_of_growth": 29,
+    "emotional_symptoms": 30,
+    "elbow_weakness": 31,
+    "back_weakness": 32,
+    "pus_in_sputum": 33,
+    "symptoms_of_the_scrotum_and_testes": 34,
+    "swelling_of_scrotum": 35,
+    "pain_in_testicles": 36,
+    "flatulence": 37,
+    "pus_draining_from_ear": 38,
+    "jaundice": 39,
+    "mass_in_scrotum": 40,
+    "white_discharge_from_eye": 41,
+    "irritable_infant": 42,
+    "abusing_alcohol": 43,
+    "fainting": 44,
+    "hostile_behavior": 45,
+    "drug_abuse": 46,
+    "sharp_abdominal_pain": 47,
+    "feeling_ill": 48,
+    "vomiting": 49,
+    "headache": 50,
+    "nausea": 51,
+    "diarrhea": 52,
+    "vaginal_itching": 53,
+    "vaginal_dryness": 54,
+    "painful_urination": 55,
+    "involuntary_urination": 56,
+    "pain_during_intercourse": 57,
+    "frequent_urination": 58,
+    "lower_abdominal_pain": 59,
+    "vaginal_discharge": 60,
+    "blood_in_urine": 61,
+    "hot_flashes": 62,
+    "intermenstrual_bleeding": 63,
+    "hand_or_finger_pain": 64,
+    "wrist_pain": 65,
+    "hand_or_finger_swelling": 66,
+    "arm_pain": 67,
+    "wrist_swelling": 68,
+    "arm_stiffness_or_tightness": 69,
+    "arm_swelling": 70,
+    "hand_or_finger_stiffness_or_tightness": 71,
+    "wrist_stiffness_or_tightness": 72,
+    "lip_swelling": 73,
+    "toothache": 74,
+    "abnormal_appearing_skin": 75,
+    "skin_lesion": 76,
+    "acne_or_pimples": 77,
+    "dry_lips": 78,
+    "facial_pain": 79,
+    "mouth_ulcer": 80,
+    "skin_growth": 81,
+    "eye_deviation": 82,
+    "diminished_vision": 83,
+    "double_vision": 84,
+    "crosseyed": 85,
+    "symptoms_of_eye": 86,
+    "pain_in_eye": 87,
+    "eye_moves_abnormally": 88,
+    "abnormal_movement_of_eyelid": 89,
+    "foreign_body_sensation_in_eye": 90,
+    "irregular_appearing_scalp": 91,
+    "swollen_lymph_nodes": 92,
+    "back_pain": 93,
+    "neck_pain": 94,
+    "low_back_pain": 95,
+    "pain_of_the_anus": 96,
+    "pain_during_pregnancy": 97,
+    "pelvic_pain": 98,
+    "impotence": 99,
+    "infant_spitting_up": 100,
+    "vomiting_blood": 101,
+    "regurgitation": 102,
+    "burning_abdominal_pain": 103,
+    "restlessness": 104,
+    "symptoms_of_infants": 105,
+    "wheezing": 106,
+    "peripheral_edema": 107,
+    "neck_mass": 108,
+    "ear_pain": 109,
+    "jaw_swelling": 110,
+    "mouth_dryness": 111,
+    "neck_swelling": 112,
+    "knee_pain": 113,
+    "foot_or_toe_pain": 114,
+    "bowlegged_or_knockkneed": 115,
+    "ankle_pain": 116,
+    "bones_are_painful": 117,
+    "knee_weakness": 118,
+    "elbow_pain": 119,
+    "knee_swelling": 120,
+    "skin_moles": 121,
+    "knee_lump_or_mass": 122,
+    "weight_gain": 123,
+    "problems_with_movement": 124,
+    "knee_stiffness_or_tightness": 125,
+    "leg_swelling": 126,
+    "foot_or_toe_swelling": 127,
+    "heartburn": 128,
+    "smoking_problems": 129,
+    "muscle_pain": 130,
+    "infant_feeding_problem": 131,
+    "recent_weight_loss": 132,
+    "problems_with_shape_or_size_of_breast": 133,
+    "underweight": 134,
+    "difficulty_eating": 135,
+    "scanty_menstrual_flow": 136,
+    "vaginal_pain": 137,
+    "vaginal_redness": 138,
+    "vulvar_irritation": 139,
+    "weakness": 140,
+    "decreased_heart_rate": 141,
+    "increased_heart_rate": 142,
+    "bleeding_or_discharge_from_nipple": 143,
+    "ringing_in_ear": 144,
+    "plugged_feeling_in_ear": 145,
+    "itchy_ears": 146,
+    "frontal_headache": 147,
+    "fluid_in_ear": 148,
+    "neck_stiffness_or_tightness": 149,
+    "spots_or_clouds_in_vision": 150,
+    "eye_redness": 151,
+    "lacrimation": 152,
+    "itchiness_of_eye": 153,
+    "blindness": 154,
+    "eye_burns_or_stings": 155,
+    "itchy_eyelid": 156,
+    "feeling_cold": 157,
+    "decreased_appetite": 158,
+    "excessive_appetite": 159,
+    "excessive_anger": 160,
+    "loss_of_sensation": 161,
+    "focal_weakness": 162,
+    "slurring_words": 163,
+    "symptoms_of_the_face": 164,
+    "disturbance_of_memory": 165,
+    "paresthesia": 166,
+    "side_pain": 167,
+    "fever": 168,
+    "shoulder_pain": 169,
+    "shoulder_stiffness_or_tightness": 170,
+    "shoulder_weakness": 171,
+    "arm_cramps_or_spasms": 172,
+    "shoulder_swelling": 173,
+    "tongue_lesions": 174,
+    "leg_cramps_or_spasms": 175,
+    "abnormal_appearing_tongue": 176,
+    "ache_all_over": 177,
+    "lower_body_pain": 178,
+    "problems_during_pregnancy": 179,
+    "spotting_or_bleeding_during_pregnancy": 180,
+    "cramps_and_spasms": 181,
+    "upper_abdominal_pain": 182,
+    "stomach_bloating": 183,
+    "changes_in_stool_appearance": 184,
+    "unusual_color_or_odor_to_urine": 185,
+    "kidney_mass": 186,
+    "swollen_abdomen": 187,
+    "symptoms_of_prostate": 188,
+    "leg_stiffness_or_tightness": 189,
+    "difficulty_breathing": 190,
+    "rib_pain": 191,
+    "joint_pain": 192,
+    "muscle_stiffness_or_tightness": 193,
+    "pallor": 194,
+    "hand_or_finger_lump_or_mass": 195,
+    "chills": 196,
+    "groin_pain": 197,
+    "fatigue": 198,
+    "abdominal_distention": 199,
+    "regurgitation1": 200,
+    "symptoms_of_the_kidneys": 201,
+    "melena": 202,
+    "flushing": 203,
+    "coughing_up_sputum": 204,
+    "seizures": 205,
+    "delusions_or_hallucinations": 206,
+    "shoulder_cramps_or_spasms": 207,
+    "joint_stiffness_or_tightness": 208,
+    "pain_or_soreness_of_breast": 209,
+    "excessive_urination_at_night": 210,
+    "bleeding_from_eye": 211,
+    "rectal_bleeding": 212,
+    "constipation": 213,
+    "temper_problems": 214,
+    "coryza": 215,
+    "wrist_weakness": 216,
+    "eye_strain": 217,
+    "hemoptysis": 218,
+    "lymphedema": 219,
+    "skin_on_leg_or_foot_looks_infected": 220,
+    "allergic_reaction": 221,
+    "congestion_in_chest": 222,
+    "muscle_swelling": 223,
+    "pus_in_urine": 224,
+    "abnormal_size_or_shape_of_ear": 225,
+    "low_back_weakness": 226,
+    "sleepiness": 227,
+    "apnea": 228,
+    "abnormal_breathing_sounds": 229,
+    "excessive_growth": 230,
+    "elbow_cramps_or_spasms": 231,
+    "feeling_hot_and_cold": 232,
+    "blood_clots_during_menstrual_periods": 233,
+    "absence_of_menstruation": 234,
+    "pulling_at_ears": 235,
+    "gum_pain": 236,
+    "redness_in_ear": 237,
+    "fluid_retention": 238,
+    "flulike_syndrome": 239,
+    "sinus_congestion": 240,
+    "painful_sinuses": 241,
+    "fears_and_phobias": 242,
+    "recent_pregnancy": 243,
+    "uterine_contractions": 244,
+    "burning_chest_pain": 245,
+    "back_cramps_or_spasms": 246,
+    "stiffness_all_over": 247,
+    "muscle_cramps_contractures_or_spasms": 248,
+    "low_back_cramps_or_spasms": 249,
+    "back_mass_or_lump": 250,
+    "nosebleed": 251,
+    "long_menstrual_periods": 252,
+    "heavy_menstrual_flow": 253,
+    "unpredictable_menstruation": 254,
+    "painful_menstruation": 255,
+    "infertility": 256,
+    "frequent_menstruation": 257,
+    "sweating": 258,
+    "mass_on_eyelid": 259,
+    "swollen_eye": 260,
+    "eyelid_swelling": 261,
+    "eyelid_lesion_or_rash": 262,
+    "unwanted_hair": 263,
+    "symptoms_of_bladder": 264,
+    "irregular_appearing_nails": 265,
+    "itching_of_skin": 266,
+    "hurts_to_breath": 267,
+    "nailbiting": 268,
+    "skin_dryness_peeling_scaliness_or_roughness": 269,
+    "skin_on_arm_or_hand_looks_infected": 270,
+    "skin_irritation": 271,
+    "itchy_scalp": 272,
+    "hip_swelling": 273,
+    "incontinence_of_stool": 274,
+    "foot_or_toe_cramps_or_spasms": 275,
+    "warts": 276,
+    "bumps_on_penis": 277,
+    "too_little_hair": 278,
+    "foot_or_toe_lump_or_mass": 279,
+    "skin_rash": 280,
+    "mass_or_swelling_around_the_anus": 281,
+    "low_back_swelling": 282,
+    "ankle_swelling": 283,
+    "hip_lump_or_mass": 284,
+    "drainage_in_throat": 285,
+    "dry_or_flaky_scalp": 286,
+    "premenstrual_tension_or_irritability": 287,
+    "feeling_hot": 288,
+    "feet_turned_in": 289,
+    "foot_or_toe_stiffness_or_tightness": 290,
+    "pelvic_pressure": 291,
+    "elbow_swelling": 292,
+    "elbow_stiffness_or_tightness": 293,
+    "early_or_late_onset_of_menopause": 294,
+    "mass_on_ear": 295,
+    "bleeding_from_ear": 296,
+    "hand_or_finger_weakness": 297,
+    "low_selfesteem": 298,
+    "throat_irritation": 299,
+    "itching_of_the_anus": 300,
+    "swollen_or_red_tonsils": 301,
+    "irregular_belly_button": 302,
+    "swollen_tongue": 303,
+    "lip_sore": 304,
+    "vulvar_sore": 305,
+    "hip_stiffness_or_tightness": 306,
+    "mouth_pain": 307,
+    "arm_weakness": 308,
+    "leg_lump_or_mass": 309,
+    "disturbance_of_smell_or_taste": 310,
+    "discharge_in_stools": 311,
+    "penis_pain": 312,
+    "loss_of_sex_drive": 313,
+    "obsessions_and_compulsions": 314,
+    "antisocial_behavior": 315,
+    "neck_cramps_or_spasms": 316,
+    "pupils_unequal": 317,
+    "poor_circulation": 318,
+    "thirst": 319,
+    "sleepwalking": 320,
+    "skin_oiliness": 321,
+    "sneezing": 322,
+    "bladder_mass": 323,
+    "knee_cramps_or_spasms": 324,
+    "premature_ejaculation": 325,
+    "leg_weakness": 326,
+    "posture_problems": 327,
+    "bleeding_in_mouth": 328,
+    "tongue_bleeding": 329,
+    "change_in_skin_mole_size_or_color": 330,
+    "penis_redness": 331,
+    "penile_discharge": 332,
+    "shoulder_lump_or_mass": 333,
+    "polyuria": 334,
+    "cloudy_eye": 335,
+    "hysterical_behavior": 336,
+    "arm_lump_or_mass": 337,
+    "nightmares": 338,
+    "bleeding_gums": 339,
+    "pain_in_gums": 340,
+    "bedwetting": 341,
+    "diaper_rash": 342,
+    "lump_or_mass_of_breast": 343,
+    "vaginal_bleeding_after_menopause": 344,
+    "infrequent_menstruation": 345,
+    "mass_on_vulva": 346,
+    "jaw_pain": 347,
+    "itching_of_scrotum": 348,
+    "postpartum_problems_of_the_breast": 349,
+    "eyelid_retracted": 350,
+    "hesitancy": 351,
+    "elbow_lump_or_mass": 352,
+    "muscle_weakness": 353,
+    "throat_redness": 354,
+    "joint_swelling": 355,
+    "tongue_pain": 356,
+    "redness_in_or_around_nose": 357,
+    "wrinkles_on_skin": 358,
+    "foot_or_toe_weakness": 359,
+    "hand_or_finger_cramps_or_spasms": 360,
+    "back_stiffness_or_tightness": 361,
+    "wrist_lump_or_mass": 362,
+    "skin_pain": 363,
+    "low_back_stiffness_or_tightness": 364,
+    "low_urine_output": 365,
+    "skin_on_head_or_neck_looks_infected": 366,
+    "stuttering_or_stammering": 367,
+    "problems_with_orgasm": 368,
+    "nose_deformity": 369,
+    "lump_over_jaw": 370,
+    "sore_in_nose": 371,
+    "hip_weakness": 372,
+    "back_swelling": 373,
+    "ankle_stiffness_or_tightness": 374,
+    "ankle_weakness": 375,
+    "neck_weakness": 376
+  }
+}
